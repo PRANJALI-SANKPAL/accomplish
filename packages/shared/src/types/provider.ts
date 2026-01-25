@@ -2,7 +2,7 @@
  * Provider and model configuration types for multi-provider support
  */
 
-export type ProviderType = 'anthropic' | 'openai' | 'openrouter' | 'google' | 'xai' | 'ollama' | 'deepseek' | 'zai' | 'azure-foundry' | 'custom' | 'bedrock' | 'litellm' | 'minimax';
+export type ProviderType = 'anthropic' | 'openai' | 'openrouter' | 'google' | 'xai' | 'ollama' | 'deepseek' | 'zai' | 'azure-foundry' | 'custom' | 'bedrock' | 'litellm' | 'minimax' | 'lmstudio';
 
 export interface ProviderConfig {
   id: ProviderType;
@@ -97,6 +97,25 @@ export interface LiteLLMConfig {
   enabled: boolean;
   lastValidated?: number;
   models?: LiteLLMModel[];
+}
+
+/**
+ * LM Studio model info from API
+ */
+export interface LMStudioModel {
+  id: string;                     // e.g., "qwen2.5-7b-instruct"
+  name: string;                   // Display name
+  toolSupport: 'supported' | 'unsupported' | 'unknown'; // Whether model supports function calling
+}
+
+/**
+ * LM Studio configuration
+ */
+export interface LMStudioConfig {
+  baseUrl: string;      // e.g., "http://localhost:1234"
+  enabled: boolean;
+  lastValidated?: number;
+  models?: LMStudioModel[];
 }
 
 /**
