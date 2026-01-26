@@ -17,6 +17,7 @@ const PROVIDER_ORDER: ProviderId[] = [
   'deepseek',
   'zai',
   'ollama',
+  'lmstudio',
   'xai',
   'openrouter',
   'litellm',

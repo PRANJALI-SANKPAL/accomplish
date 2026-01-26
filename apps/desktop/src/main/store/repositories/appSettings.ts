@@ -1,6 +1,6 @@
 // apps/desktop/src/main/store/repositories/appSettings.ts
 
-import type { SelectedModel, OllamaConfig, LiteLLMConfig, AzureFoundryConfig } from '@accomplish/shared';
+import type { SelectedModel, OllamaConfig, LiteLLMConfig, AzureFoundryConfig, LMStudioConfig } from '@accomplish/shared';
 import { getDatabase } from '../db';
 
 interface AppSettingsRow {
@@ -11,6 +11,7 @@ interface AppSettingsRow {
   ollama_config: string | null;
   litellm_config: string | null;
   azure_foundry_config: string | null;
+  lmstudio_config: string | null;
 }
 
 interface AppSettings {
@@ -20,6 +21,7 @@ interface AppSettings {
   ollamaConfig: OllamaConfig | null;
   litellmConfig: LiteLLMConfig | null;
   azureFoundryConfig: AzureFoundryConfig | null;
+  lmstudioConfig: LMStudioConfig | null;
 }
 
 function getRow(): AppSettingsRow {
@@ -115,6 +117,23 @@ export function setAzureFoundryConfig(config: AzureFoundryConfig | null): void {
   );
 }
 
+export function getLMStudioConfig(): LMStudioConfig | null {
+  const row = getRow();
+  if (!row.lmstudio_config) return null;
+  try {
+    return JSON.parse(row.lmstudio_config) as LMStudioConfig;
+  } catch {
+    return null;
+  }
+}
+
+export function setLMStudioConfig(config: LMStudioConfig | null): void {
+  const db = getDatabase();
+  db.prepare('UPDATE app_settings SET lmstudio_config = ? WHERE id = 1').run(
+    config ? JSON.stringify(config) : null
+  );
+}
+
 function safeParseJson<T>(json: string | null): T | null {
   if (!json) return null;
   try {
@@ -133,6 +152,7 @@ export function getAppSettings(): AppSettings {
     ollamaConfig: safeParseJson<OllamaConfig>(row.ollama_config),
     litellmConfig: safeParseJson<LiteLLMConfig>(row.litellm_config),
     azureFoundryConfig: safeParseJson<AzureFoundryConfig>(row.azure_foundry_config),
+    lmstudioConfig: safeParseJson<LMStudioConfig>(row.lmstudio_config),
   };
 }
 
@@ -145,7 +165,8 @@ export function clearAppSettings(): void {
       selected_model = NULL,
       ollama_config = NULL,
       litellm_config = NULL,
-      azure_foundry_config = NULL
+      azure_foundry_config = NULL,
+      lmstudio_config = NULL
     WHERE id = 1`
   ).run();
 }

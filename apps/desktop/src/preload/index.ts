@@ -42,7 +42,7 @@ const accomplishAPI = {
   // Settings
   getApiKeys: (): Promise<unknown[]> => ipcRenderer.invoke('settings:api-keys'),
   addApiKey: (
-    provider: 'anthropic' | 'openai' | 'openrouter' | 'google' | 'xai' | 'deepseek' | 'zai' | 'azure-foundry' | 'custom' | 'bedrock' | 'litellm',
+    provider: 'anthropic' | 'openai' | 'openrouter' | 'google' | 'xai' | 'deepseek' | 'zai' | 'azure-foundry' | 'custom' | 'bedrock' | 'litellm' | 'lmstudio',
     key: string,
     label?: string
   ): Promise<unknown> =>
@@ -100,14 +100,14 @@ const accomplishAPI = {
   // Ollama configuration
   testOllamaConnection: (url: string): Promise<{
     success: boolean;
-    models?: Array<{ id: string; displayName: string; size: number }>;
+    models?: Array<{ id: string; displayName: string; size: number; toolSupport?: 'supported' | 'unsupported' | 'unknown' }>;
     error?: string;
   }> => ipcRenderer.invoke('ollama:test-connection', url),
 
-  getOllamaConfig: (): Promise<{ baseUrl: string; enabled: boolean; lastValidated?: number; models?: Array<{ id: string; displayName: string; size: number }> } | null> =>
+  getOllamaConfig: (): Promise<{ baseUrl: string; enabled: boolean; lastValidated?: number; models?: Array<{ id: string; displayName: string; size: number; toolSupport?: 'supported' | 'unsupported' | 'unknown' }> } | null> =>
     ipcRenderer.invoke('ollama:get-config'),
 
-  setOllamaConfig: (config: { baseUrl: string; enabled: boolean; lastValidated?: number; models?: Array<{ id: string; displayName: string; size: number }> } | null): Promise<void> =>
+  setOllamaConfig: (config: { baseUrl: string; enabled: boolean; lastValidated?: number; models?: Array<{ id: string; displayName: string; size: number; toolSupport?: 'supported' | 'unsupported' | 'unknown' }> } | null): Promise<void> =>
     ipcRenderer.invoke('ollama:set-config', config),
 
   // Azure Foundry configuration
@@ -150,6 +150,33 @@ const accomplishAPI = {
 
   setLiteLLMConfig: (config: { baseUrl: string; enabled: boolean; lastValidated?: number; models?: Array<{ id: string; name: string; provider: string; contextLength: number }> } | null): Promise<void> =>
     ipcRenderer.invoke('litellm:set-config', config),
+
+  // LM Studio configuration
+  testLMStudioConnection: (url: string): Promise<{
+    success: boolean;
+    models?: Array<{ id: string; name: string; toolSupport: 'supported' | 'unsupported' | 'unknown' }>;
+    error?: string;
+  }> => ipcRenderer.invoke('lmstudio:test-connection', url),
+
+  fetchLMStudioModels: (): Promise<{
+    success: boolean;
+    models?: Array<{ id: string; name: string; toolSupport: 'supported' | 'unsupported' | 'unknown' }>;
+    error?: string;
+  }> => ipcRenderer.invoke('lmstudio:fetch-models'),
+
+  getLMStudioConfig: (): Promise<{
+    baseUrl: string;
+    enabled: boolean;
+    lastValidated?: number;
+    models?: Array<{ id: string; name: string; toolSupport: 'supported' | 'unsupported' | 'unknown' }>;
+  } | null> => ipcRenderer.invoke('lmstudio:get-config'),
+
+  setLMStudioConfig: (config: {
+    baseUrl: string;
+    enabled: boolean;
+    lastValidated?: number;
+    models?: Array<{ id: string; name: string; toolSupport: 'supported' | 'unsupported' | 'unknown' }>;
+  } | null): Promise<void> => ipcRenderer.invoke('lmstudio:set-config', config),
 
   // Bedrock
   validateBedrockCredentials: (credentials: string) =>
