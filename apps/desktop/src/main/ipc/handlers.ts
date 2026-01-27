@@ -113,7 +113,7 @@ import {
 } from '../test-utils/mock-task-flow';
 
 const MAX_TEXT_LENGTH = 8000;
-const ALLOWED_API_KEY_PROVIDERS = new Set(['anthropic', 'openai', 'openrouter', 'google', 'xai', 'deepseek', 'zai', 'azure-foundry', 'custom', 'bedrock', 'litellm', 'minimax', 'lmstudio', 'elevenlabs']);
+const ALLOWED_API_KEY_PROVIDERS = new Set(['anthropic', 'openai', 'openrouter', 'google', 'xai', 'deepseek', 'moonshot', 'zai', 'azure-foundry', 'custom', 'bedrock', 'litellm', 'minimax', 'lmstudio', 'elevenlabs']);
 const API_KEY_VALIDATION_TIMEOUT_MS = 15000;
 
 interface OllamaModel {
@@ -1000,10 +1000,34 @@ export function registerIPCHandlers(): void {
           );
           break;
 
-        // Z.AI Coding Plan uses the same validation as standard API
-        case 'zai':
+        case 'moonshot':
           response = await fetchWithTimeout(
-            'https://open.bigmodel.cn/api/paas/v4/models',
+            'https://api.moonshot.ai/v1/chat/completions',
+            {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${sanitizedKey}`,
+              },
+              body: JSON.stringify({
+                model: 'kimi-latest',
+                max_tokens: 1,
+                messages: [{ role: 'user', content: 'test' }],
+              }),
+            },
+            API_KEY_VALIDATION_TIMEOUT_MS
+          );
+          break;
+
+        // Z.AI Coding Plan uses the same validation as standard API
+        case 'zai': {
+          const zaiRegion = (options?.region as string) || 'international';
+          const zaiEndpoint = zaiRegion === 'china'
+            ? 'https://open.bigmodel.cn/api/paas/v4/models'
+            : 'https://api.z.ai/api/coding/paas/v4/models';
+
+          response = await fetchWithTimeout(
+            zaiEndpoint,
             {
               method: 'GET',
               headers: {
@@ -1013,6 +1037,7 @@ export function registerIPCHandlers(): void {
             API_KEY_VALIDATION_TIMEOUT_MS
           );
           break;
+        }
 
         case 'azure-foundry':
           // Prioritize options passed in (from settings dialog setup)

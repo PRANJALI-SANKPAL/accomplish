@@ -47,6 +47,7 @@ const { openLauncher, authError, clearAuthError } = useTaskStore();
       clearAuthError();
     }
   }, [clearAuthError]);
+
   // Cmd+K keyboard shortcut
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

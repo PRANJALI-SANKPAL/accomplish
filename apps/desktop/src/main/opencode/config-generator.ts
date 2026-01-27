@@ -6,7 +6,8 @@ import { getOllamaConfig, getLMStudioConfig } from '../store/appSettings';
 import { getApiKey } from '../store/secureStorage';
 import { getProviderSettings, getActiveProviderModel, getConnectedProviderIds } from '../store/providerSettings';
 import { ensureAzureFoundryProxy } from './azure-foundry-proxy';
-import type { BedrockCredentials, ProviderId, AzureFoundryCredentials } from '@accomplish/shared';
+import { ensureMoonshotProxy } from './moonshot-proxy';
+import type { BedrockCredentials, ProviderId, ZaiCredentials, AzureFoundryCredentials } from '@accomplish/shared';
 
 /**
  * Agent name used by Accomplish
@@ -321,6 +322,20 @@ interface OpenRouterProviderConfig {
   models: Record<string, OpenRouterProviderModelConfig>;
 }
 
+interface MoonshotProviderModelConfig {
+  name: string;
+  tools?: boolean;
+}
+
+interface MoonshotProviderConfig {
+  npm: string;
+  name: string;
+  options: {
+    baseURL: string;
+  };
+  models: Record<string, MoonshotProviderModelConfig>;
+}
+
 interface LiteLLMProviderModelConfig {
   name: string;
   tools?: boolean;
@@ -364,7 +379,7 @@ interface LMStudioProviderConfig {
   models: Record<string, LMStudioProviderModelConfig>;
 }
 
-type ProviderConfig = OllamaProviderConfig | BedrockProviderConfig | AzureFoundryProviderConfig | OpenRouterProviderConfig | LiteLLMProviderConfig | ZaiProviderConfig | LMStudioProviderConfig;
+type ProviderConfig = OllamaProviderConfig | BedrockProviderConfig | AzureFoundryProviderConfig | OpenRouterProviderConfig | MoonshotProviderConfig | LiteLLMProviderConfig | ZaiProviderConfig | LMStudioProviderConfig;
 
 interface OpenCodeConfig {
   $schema?: string;
@@ -472,6 +487,7 @@ export async function generateOpenCodeConfig(azureFoundryToken?: string): Promis
     google: 'google',
     xai: 'xai',
     deepseek: 'deepseek',
+    moonshot: 'moonshot',
     zai: 'zai-coding-plan',
     bedrock: 'amazon-bedrock',
     'azure-foundry': 'azure-foundry',
@@ -483,7 +499,7 @@ export async function generateOpenCodeConfig(azureFoundryToken?: string): Promis
   };
 
   // Build enabled providers list from new settings or fall back to base providers
-  const baseProviders = ['anthropic', 'openai', 'openrouter', 'google', 'xai', 'deepseek', 'zai-coding-plan', 'amazon-bedrock', 'minimax'];
+  const baseProviders = ['anthropic', 'openai', 'openrouter', 'google', 'xai', 'deepseek', 'moonshot', 'zai-coding-plan', 'amazon-bedrock', 'minimax'];
   let enabledProviders = baseProviders;
 
   // If we have connected providers in the new settings, use those
@@ -598,6 +614,31 @@ export async function generateOpenCodeConfig(azureFoundryToken?: string): Promis
         };
         console.log('[OpenCode Config] OpenRouter configured from legacy settings:', Object.keys(openrouterModels));
       }
+    }
+  }
+
+  // Configure Moonshot if connected
+  const moonshotProvider = providerSettings.connectedProviders.moonshot;
+  if (moonshotProvider?.connectionStatus === 'connected') {
+    if (moonshotProvider.selectedModelId) {
+      const modelId = moonshotProvider.selectedModelId.replace(/^moonshot\//, '');
+      const moonshotApiKey = getApiKey('moonshot');
+      const proxyInfo = await ensureMoonshotProxy('https://api.moonshot.ai/v1');
+      providerConfig.moonshot = {
+        npm: '@ai-sdk/openai-compatible',
+        name: 'Moonshot AI',
+        options: {
+          baseURL: proxyInfo.baseURL,
+          ...(moonshotApiKey ? { apiKey: moonshotApiKey } : {}),
+        },
+        models: {
+          [modelId]: {
+            name: modelId,
+            tools: true,
+          },
+        },
+      };
+      console.log('[OpenCode Config] Moonshot AI configured:', modelId);
     }
   }
 
@@ -786,15 +827,22 @@ export async function generateOpenCodeConfig(azureFoundryToken?: string): Promis
       'glm-4.5-flash': { name: 'GLM-4.5 Flash', tools: true },
     };
 
+    // Z.AI - use endpoint based on stored region
+    const zaiCredentials = providerSettings.connectedProviders.zai?.credentials as ZaiCredentials | undefined;
+    const zaiRegion = zaiCredentials?.region || 'international';
+    const zaiEndpoint = zaiRegion === 'china'
+      ? 'https://open.bigmodel.cn/api/paas/v4'
+      : 'https://api.z.ai/api/coding/paas/v4';
+
     providerConfig['zai-coding-plan'] = {
       npm: '@ai-sdk/openai-compatible',
       name: 'Z.AI Coding Plan',
       options: {
-        baseURL: 'https://open.bigmodel.cn/api/paas/v4',
+        baseURL: zaiEndpoint,
       },
       models: zaiModels,
     };
-    console.log('[OpenCode Config] Z.AI Coding Plan provider configured with models:', Object.keys(zaiModels));
+    console.log('[OpenCode Config] Z.AI Coding Plan provider configured with models:', Object.keys(zaiModels), 'region:', zaiRegion, 'endpoint:', zaiEndpoint);
   }
 
   const config: OpenCodeConfig = {

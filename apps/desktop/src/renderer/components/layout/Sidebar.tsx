@@ -118,9 +118,7 @@ export default function Sidebar() {
             data-testid="sidebar-settings-button"
             variant="ghost"
             size="icon"
-            onClick={() => {
-              setShowSettings(true);
-            }}
+            onClick={() => setShowSettings(true)}
             title="Settings"
           >
             <Settings className="h-4 w-4" />
