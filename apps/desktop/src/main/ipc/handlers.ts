@@ -996,9 +996,14 @@ export function registerIPCHandlers(): void {
           break;
 
         // Z.AI Coding Plan uses the same validation as standard API
-        case 'zai':
+        case 'zai': {
+          const zaiRegion = (options?.region as string) || 'international';
+          const zaiEndpoint = zaiRegion === 'china'
+            ? 'https://open.bigmodel.cn/api/paas/v4/models'
+            : 'https://api.z.ai/api/coding/paas/v4/models';
+
           response = await fetchWithTimeout(
-            'https://open.bigmodel.cn/api/paas/v4/models',
+            zaiEndpoint,
             {
               method: 'GET',
               headers: {
@@ -1008,6 +1013,7 @@ export function registerIPCHandlers(): void {
             API_KEY_VALIDATION_TIMEOUT_MS
           );
           break;
+        }
 
         case 'azure-foundry':
           // Prioritize options passed in (from settings dialog setup)

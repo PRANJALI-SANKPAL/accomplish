@@ -74,6 +74,14 @@ export interface LiteLLMCredentials {
   keyPrefix?: string;
 }
 
+export type ZaiRegion = 'china' | 'international';
+
+export interface ZaiCredentials {
+  type: 'zai';
+  keyPrefix: string;
+  region: ZaiRegion;
+}
+
 export interface LMStudioCredentials {
   type: 'lmstudio';
   serverUrl: string;
@@ -98,6 +106,7 @@ export type ProviderCredentials =
   | OllamaCredentials
   | OpenRouterCredentials
   | LiteLLMCredentials
+  | ZaiCredentials
   | AzureFoundryCredentials
   | LMStudioCredentials
   | OAuthCredentials;
