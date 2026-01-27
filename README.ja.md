@@ -178,9 +178,6 @@ Openworkはお使いのマシン上でローカルに実行されます。ファ
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="ChatGPTサインイン（OAuth）" width="720" />
-</p>
 
 <br />
 

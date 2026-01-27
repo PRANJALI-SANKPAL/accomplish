@@ -178,9 +178,6 @@ Openwork는 로컬 머신에서 실행됩니다. 파일은 기기에 저장되�
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="ChatGPT 로그인 (OAuth)" width="720" />
-</p>
 
 <br />
 

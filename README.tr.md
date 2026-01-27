@@ -178,9 +178,6 @@ Openwork bilgisayarınızda yerel olarak çalışır. Dosyalarınız cihazınız
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="ChatGPT girişi (OAuth)" width="720" />
-</p>
 
 <br />
 

@@ -178,9 +178,6 @@ Openwork berjalan secara lokal di mesin Anda. File Anda tetap di perangkat Anda,
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="Login ChatGPT (OAuth)" width="720" />
-</p>
 
 <br />
 

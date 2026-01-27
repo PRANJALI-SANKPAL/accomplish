@@ -178,9 +178,6 @@ Openwork هو وكيل سطح مكتب ذكاء اصطناعي مفتوح الم
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="تسجيل دخول ChatGPT (OAuth)" width="720" />
-</p>
 
 <br />
 

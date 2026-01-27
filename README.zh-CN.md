@@ -178,9 +178,6 @@ Openwork 在您的机器上本地运行。您的文件保留在您的设备上�
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="ChatGPT 登录（OAuth）" width="720" />
-</p>
 
 <br />
 

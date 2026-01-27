@@ -178,9 +178,6 @@ Openwork runs locally on your machine. Your files stay on your device, and you c
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="ChatGPT sign-in (OAuth)" width="720" />
-</p>
 
 <br />
 

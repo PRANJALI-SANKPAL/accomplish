@@ -178,9 +178,6 @@ Openwork se ejecuta localmente en tu máquina. Tus archivos permanecen en tu dis
 
 <br />
 
-<p align="center">
-  <img src="docs/chatgpt-signin.png" alt="Inicio de sesión con ChatGPT (OAuth)" width="720" />
-</p>
 
 <br />
 
