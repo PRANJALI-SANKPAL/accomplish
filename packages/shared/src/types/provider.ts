@@ -1,8 +1,4 @@
-/**
- * Provider and model configuration types for multi-provider support
- */
-
-import type { ZaiRegion } from './providerSettings';
+import type { ZaiRegion } from './providerSettings.js';
 
 export const ZAI_ENDPOINTS: Record<ZaiRegion, string> = {
   china: 'https://open.bigmodel.cn/api/paas/v4',
@@ -10,6 +6,63 @@ export const ZAI_ENDPOINTS: Record<ZaiRegion, string> = {
 };
 
 export type ProviderType = 'anthropic' | 'openai' | 'openrouter' | 'google' | 'xai' | 'ollama' | 'deepseek' | 'moonshot' | 'zai' | 'azure-foundry' | 'custom' | 'bedrock' | 'litellm' | 'minimax' | 'lmstudio';
+
+export type ApiKeyProvider =
+  | 'anthropic'
+  | 'openai'
+  | 'openrouter'
+  | 'google'
+  | 'xai'
+  | 'deepseek'
+  | 'moonshot'
+  | 'zai'
+  | 'azure-foundry'
+  | 'custom'
+  | 'bedrock'
+  | 'litellm'
+  | 'minimax'
+  | 'lmstudio'
+  | 'elevenlabs';
+
+/**
+ * Providers that accept API key storage via the setApiKey IPC handler.
+ * This is the allowlist of providers that can have their API keys stored.
+ * Uses Set<string> to allow runtime checking of untrusted input strings.
+ */
+export const ALLOWED_API_KEY_PROVIDERS: ReadonlySet<string> = new Set<string>([
+  'anthropic',
+  'openai',
+  'openrouter',
+  'google',
+  'xai',
+  'deepseek',
+  'moonshot',
+  'zai',
+  'azure-foundry',
+  'custom',
+  'bedrock',
+  'litellm',
+  'minimax',
+  'lmstudio',
+  'elevenlabs',
+]);
+
+/**
+ * Providers that use standard OpenAI-compatible API key validation.
+ * These providers can be validated using a simple test request to their API.
+ * Uses Set<string> to allow runtime checking of untrusted input strings.
+ */
+export const STANDARD_VALIDATION_PROVIDERS: ReadonlySet<string> = new Set<string>([
+  'anthropic',
+  'openai',
+  'google',
+  'xai',
+  'deepseek',
+  'openrouter',
+  'moonshot',
+  'zai',
+  'minimax',
+]);
 
 export interface ProviderConfig {
   id: ProviderType;
@@ -21,10 +74,10 @@ export interface ProviderConfig {
 }
 
 export interface ModelConfig {
-  id: string; // e.g., "claude-sonnet-4-5"
-  displayName: string; // e.g., "Claude Sonnet 4.5"
+  id: string;
+  displayName: string;
   provider: ProviderType;
-  fullId: string; // e.g., "anthropic/claude-sonnet-4-5"
+  fullId: string;
   contextWindow?: number;
   maxOutputTokens?: number;
   supportsVision?: boolean;
@@ -32,102 +85,71 @@ export interface ModelConfig {
 
 export interface SelectedModel {
   provider: ProviderType;
-  model: string; // Full ID: "anthropic/claude-sonnet-4-5"
-  baseUrl?: string;  // For Ollama: the server URL, for Azure Foundry: the endpoint URL
-  deploymentName?: string;  // For Azure Foundry: the deployment name
+  model: string;
+  baseUrl?: string;
+  deploymentName?: string;
 }
 
-/**
- * Ollama model info from API
- */
 export interface OllamaModelInfo {
-  id: string;        // e.g., "qwen3:latest"
+  id: string;
   displayName: string;
   size: number;
 }
 
-/**
- * Ollama server configuration
- */
 export interface OllamaConfig {
   baseUrl: string;
   enabled: boolean;
   lastValidated?: number;
-  models?: OllamaModelInfo[];  // Discovered models from Ollama API
+  models?: OllamaModelInfo[];
 }
 
-/**
-/**
- * Azure Foundry configuration
- */
 export interface AzureFoundryConfig {
-  baseUrl: string;  // Azure Foundry endpoint URL
-  deploymentName: string;  // Deployment name
-  authType: 'api-key' | 'entra-id';  // Authentication type
+  baseUrl: string;
+  deploymentName: string;
+  authType: 'api-key' | 'entra-id';
   enabled: boolean;
   lastValidated?: number;
 }
 
-/**
- * OpenRouter model info from API
- */
 export interface OpenRouterModel {
-  id: string;           // e.g., "anthropic/claude-3.5-sonnet"
-  name: string;         // e.g., "Claude 3.5 Sonnet"
-  provider: string;     // e.g., "anthropic" (extracted from id)
+  id: string;
+  name: string;
+  provider: string;
   contextLength: number;
 }
 
-/**
- * OpenRouter configuration
- */
 export interface OpenRouterConfig {
   models: OpenRouterModel[];
   lastFetched?: number;
 }
 
-/**
- * LiteLLM model info from API
- */
 export interface LiteLLMModel {
-  id: string;           // e.g., "openai/gpt-4"
-  name: string;         // Display name (same as id for LiteLLM)
-  provider: string;     // Extracted from model ID
+  id: string;
+  name: string;
+  provider: string;
   contextLength: number;
 }
 
-/**
- * LiteLLM configuration
- */
 export interface LiteLLMConfig {
-  baseUrl: string;      // e.g., "http://localhost:4000"
+  baseUrl: string;
   enabled: boolean;
   lastValidated?: number;
   models?: LiteLLMModel[];
 }
 
-/**
- * LM Studio model info from API
- */
 export interface LMStudioModel {
-  id: string;                     // e.g., "qwen2.5-7b-instruct"
-  name: string;                   // Display name
-  toolSupport: 'supported' | 'unsupported' | 'unknown'; // Whether model supports function calling
+  id: string;
+  name: string;
+  toolSupport: 'supported' | 'unsupported' | 'unknown';
 }
 
-/**
- * LM Studio configuration
- */
 export interface LMStudioConfig {
-  baseUrl: string;      // e.g., "http://localhost:1234"
+  baseUrl: string;
   enabled: boolean;
   lastValidated?: number;
   models?: LMStudioModel[];
 }
 
-/**
- * Default providers and models
- */
 export const DEFAULT_PROVIDERS: ProviderConfig[] = [
   {
     id: 'anthropic',
@@ -357,8 +379,8 @@ export const DEFAULT_PROVIDERS: ProviderConfig[] = [
   {
     id: 'bedrock',
     name: 'Amazon Bedrock',
-    requiresApiKey: false, // Uses AWS credentials
-    models: [], // Now fetched dynamically from AWS API
+    requiresApiKey: false,
+    models: [],
   },
   {
     id: 'minimax',

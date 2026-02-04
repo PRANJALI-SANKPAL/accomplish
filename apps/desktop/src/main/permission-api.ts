@@ -8,26 +8,23 @@
 
 import http from 'http';
 import type { BrowserWindow } from 'electron';
-import type { PermissionRequest, FileOperation } from '@accomplish/shared';
+import {
+  PERMISSION_API_PORT,
+  QUESTION_API_PORT,
+  isFilePermissionRequest,
+  isQuestionRequest,
+} from '@accomplish/shared';
+import {
+  PermissionRequestHandler,
+  type FilePermissionRequestData,
+  type QuestionRequestData,
+  type QuestionResponseData,
+} from '@accomplish/core';
 
-export const PERMISSION_API_PORT = 9226;
-export const QUESTION_API_PORT = 9227;
+export { PERMISSION_API_PORT, QUESTION_API_PORT, isFilePermissionRequest, isQuestionRequest };
 
-interface PendingPermission {
-  resolve: (allowed: boolean) => void;
-  timeoutId: NodeJS.Timeout;
-}
-
-interface PendingQuestion {
-  resolveWithData: (data: { selectedOptions?: string[]; customText?: string; denied?: boolean }) => void;
-  timeoutId: NodeJS.Timeout;
-}
-
-// Store pending permission requests waiting for user response
-const pendingPermissions = new Map<string, PendingPermission>();
-
-// Store pending question requests waiting for user response
-const pendingQuestions = new Map<string, PendingQuestion>();
+// Singleton permission request handler
+const permissionHandler = new PermissionRequestHandler();
 
 // Store reference to main window and task manager
 let mainWindow: BrowserWindow | null = null;
@@ -49,15 +46,7 @@ export function initPermissionApi(
  * Called when user responds via the UI
  */
 export function resolvePermission(requestId: string, allowed: boolean): boolean {
-  const pending = pendingPermissions.get(requestId);
-  if (!pending) {
-    return false;
-  }
-
-  clearTimeout(pending.timeoutId);
-  pending.resolve(allowed);
-  pendingPermissions.delete(requestId);
-  return true;
+  return permissionHandler.resolvePermissionRequest(requestId, allowed);
 }
 
 /**
@@ -66,31 +55,9 @@ export function resolvePermission(requestId: string, allowed: boolean): boolean 
  */
 export function resolveQuestion(
   requestId: string,
-  response: { selectedOptions?: string[]; customText?: string; denied?: boolean }
+  response: QuestionResponseData
 ): boolean {
-  const pending = pendingQuestions.get(requestId);
-  if (!pending) {
-    return false;
-  }
-
-  clearTimeout(pending.timeoutId);
-  pending.resolveWithData(response);
-  pendingQuestions.delete(requestId);
-  return true;
-}
-
-/**
- * Generate a unique request ID for file permissions
- */
-function generateRequestId(): string {
-  return `filereq_${Date.now()}_${Math.random().toString(36).substring(2, 11)}`;
-}
-
-/**
- * Generate a unique request ID for questions
- */
-function generateQuestionRequestId(): string {
-  return `questionreq_${Date.now()}_${Math.random().toString(36).substring(2, 11)}`;
+  return permissionHandler.resolveQuestionRequest(requestId, response);
 }
 
 /**
@@ -123,13 +90,7 @@ export function startPermissionApiServer(): http.Server {
       body += chunk;
     }
 
-    let data: {
-      operation?: string;
-      filePath?: string;
-      filePaths?: string[];
-      targetPath?: string;
-      contentPreview?: string;
-    };
+    let data: FilePermissionRequestData;
 
     try {
       data = JSON.parse(body);
@@ -139,18 +100,11 @@ export function startPermissionApiServer(): http.Server {
       return;
     }
 
-    // Validate required fields
-    if (!data.operation || (!data.filePath && (!data.filePaths || data.filePaths.length === 0))) {
+    // Validate request using core handler
+    const validation = permissionHandler.validateFilePermissionRequest(data);
+    if (!validation.valid) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'operation and either filePath or filePaths are required' }));
-      return;
-    }
-
-    // Validate operation type
-    const validOperations = ['create', 'delete', 'rename', 'move', 'modify', 'overwrite'];
-    if (!validOperations.includes(data.operation)) {
-      res.writeHead(400, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: `Invalid operation. Must be one of: ${validOperations.join(', ')}` }));
+      res.end(JSON.stringify({ error: validation.error }));
       return;
     }
 
@@ -168,37 +122,22 @@ export function startPermissionApiServer(): http.Server {
       return;
     }
 
-    const requestId = generateRequestId();
+    // Create request using core handler
+    const { requestId, promise } = permissionHandler.createPermissionRequest();
 
-    // Create permission request for the UI
-    const permissionRequest: PermissionRequest = {
-      id: requestId,
+    // Build permission request for the UI
+    const permissionRequest = permissionHandler.buildFilePermissionRequest(
+      requestId,
       taskId,
-      type: 'file',
-      fileOperation: data.operation as FileOperation,
-      filePath: data.filePath,
-      filePaths: data.filePaths,
-      targetPath: data.targetPath,
-      contentPreview: data.contentPreview?.substring(0, 500),
-      createdAt: new Date().toISOString(),
-    };
+      data
+    );
 
-    // Send to renderer
+    // Send to renderer (Electron-specific)
     mainWindow.webContents.send('permission:request', permissionRequest);
 
-    // Wait for user response (with 5 minute timeout)
-    const PERMISSION_TIMEOUT_MS = 5 * 60 * 1000;
-
+    // Wait for user response
     try {
-      const allowed = await new Promise<boolean>((resolve, reject) => {
-        const timeoutId = setTimeout(() => {
-          pendingPermissions.delete(requestId);
-          reject(new Error('Permission request timed out'));
-        }, PERMISSION_TIMEOUT_MS);
-
-        pendingPermissions.set(requestId, { resolve, timeoutId });
-      });
-
+      const allowed = await promise;
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ allowed }));
     } catch (error) {
@@ -252,12 +191,7 @@ export function startQuestionApiServer(): http.Server {
       body += chunk;
     }
 
-    let data: {
-      question?: string;
-      header?: string;
-      options?: Array<{ label: string; description?: string }>;
-      multiSelect?: boolean;
-    };
+    let data: QuestionRequestData;
 
     try {
       data = JSON.parse(body);
@@ -267,10 +201,11 @@ export function startQuestionApiServer(): http.Server {
       return;
     }
 
-    // Validate required fields
-    if (!data.question) {
+    // Validate request using core handler
+    const validation = permissionHandler.validateQuestionRequest(data);
+    if (!validation.valid) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ error: 'question is required' }));
+      res.end(JSON.stringify({ error: validation.error }));
       return;
     }
 
@@ -288,36 +223,22 @@ export function startQuestionApiServer(): http.Server {
       return;
     }
 
-    const requestId = generateQuestionRequestId();
+    // Create request using core handler
+    const { requestId, promise } = permissionHandler.createQuestionRequest();
 
-    // Create question request for the UI
-    const questionRequest: PermissionRequest = {
-      id: requestId,
+    // Build question request for the UI
+    const questionRequest = permissionHandler.buildQuestionRequest(
+      requestId,
       taskId,
-      type: 'question',
-      question: data.question,
-      header: data.header,
-      options: data.options,
-      multiSelect: data.multiSelect,
-      createdAt: new Date().toISOString(),
-    };
+      data
+    );
 
-    // Send to renderer
+    // Send to renderer (Electron-specific)
     mainWindow.webContents.send('permission:request', questionRequest);
 
-    // Wait for user response (with 5 minute timeout)
-    const QUESTION_TIMEOUT_MS = 5 * 60 * 1000;
-
+    // Wait for user response
     try {
-      const response = await new Promise<{ selectedOptions?: string[]; customText?: string; denied?: boolean }>((resolve, reject) => {
-        const timeoutId = setTimeout(() => {
-          pendingQuestions.delete(requestId);
-          reject(new Error('Question request timed out'));
-        }, QUESTION_TIMEOUT_MS);
-
-        pendingQuestions.set(requestId, { resolveWithData: resolve, timeoutId });
-      });
-
+      const response = await promise;
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify(response));
     } catch (error) {
@@ -339,18 +260,4 @@ export function startQuestionApiServer(): http.Server {
   });
 
   return server;
-}
-
-/**
- * Check if a request ID is a file permission request from the MCP server
- */
-export function isFilePermissionRequest(requestId: string): boolean {
-  return requestId.startsWith('filereq_');
-}
-
-/**
- * Check if a request ID is a question request from the MCP server
- */
-export function isQuestionRequest(requestId: string): boolean {
-  return requestId.startsWith('questionreq_');
 }

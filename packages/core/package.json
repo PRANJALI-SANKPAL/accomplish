@@ -1,0 +1,65 @@
+{
+  "name": "@accomplish/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./opencode": {
+      "import": "./dist/opencode/index.js",
+      "types": "./dist/opencode/index.d.ts"
+    },
+    "./storage": {
+      "import": "./dist/storage/index.js",
+      "types": "./dist/storage/index.d.ts"
+    },
+    "./providers": {
+      "import": "./dist/providers/index.js",
+      "types": "./dist/providers/index.d.ts"
+    },
+    "./skills": {
+      "import": "./dist/skills/index.js",
+      "types": "./dist/skills/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./browser": {
+      "import": "./dist/browser/index.js",
+      "types": "./dist/browser/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "mcp-tools"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@accomplish/shared": "workspace:*",
+    "@aws-sdk/client-bedrock": "^3.971.0",
+    "@aws-sdk/credential-providers": "^3.971.0",
+    "@azure/identity": "^4.13.0",
+    "better-sqlite3": "^12.6.2",
+    "gray-matter": "^4.0.3",
+    "node-pty": "^1.1.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.10.6",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
