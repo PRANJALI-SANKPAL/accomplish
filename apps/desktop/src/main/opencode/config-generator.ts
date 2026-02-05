@@ -6,11 +6,11 @@ import {
   buildProviderConfigs,
   syncApiKeysToOpenCodeAuth as coreSyncApiKeysToOpenCodeAuth,
   getOpenCodeAuthPath,
-} from '@accomplish/core';
+} from '@accomplish/agent-core';
 import { getApiKey, getAllApiKeys } from '../store/secureStorage';
 import { getNodePath } from '../utils/bundled-node';
 import { skillsManager } from '../skills';
-import { PERMISSION_API_PORT, QUESTION_API_PORT } from '@accomplish/shared';
+import { PERMISSION_API_PORT, QUESTION_API_PORT } from '@accomplish/agent-core';
 
 export { ACCOMPLISH_AGENT_NAME };
 
@@ -22,7 +22,7 @@ export function getMcpToolsPath(): string {
   if (app.isPackaged) {
     return path.join(process.resourcesPath, 'mcp-tools');
   } else {
-    return path.join(app.getAppPath(), '..', '..', 'packages', 'core', 'mcp-tools');
+    return path.join(app.getAppPath(), '..', '..', 'packages', 'agent-core', 'mcp-tools');
   }
 }
 
@@ -34,7 +34,7 @@ export function getOpenCodeConfigDir(): string {
   if (app.isPackaged) {
     return process.resourcesPath;
   } else {
-    return path.join(app.getAppPath(), '..', '..', 'packages', 'core');
+    return path.join(app.getAppPath(), '..', '..', 'packages', 'agent-core');
   }
 }
 

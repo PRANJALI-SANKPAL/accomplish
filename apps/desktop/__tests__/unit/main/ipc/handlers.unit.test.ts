@@ -124,9 +124,9 @@ let mockOnboardingComplete = false;
 let mockSelectedModel: { provider: string; model: string } | null = null;
 let mockOpenAiBaseUrl = '';
 
-// Mock @accomplish/core - comprehensive mock covering all exports used by handlers.ts
-vi.mock('@accomplish/core', async (importOriginal) => {
-  const actual = await importOriginal<typeof import('@accomplish/core')>();
+// Mock @accomplish/agent-core - comprehensive mock covering all exports used by handlers.ts
+vi.mock('@accomplish/agent-core', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('@accomplish/agent-core')>();
   return {
     // Use actual implementation for API validation since tests stub fetch
     validateApiKey: actual.validateApiKey,
@@ -136,6 +136,16 @@ vi.mock('@accomplish/core', async (importOriginal) => {
 
     // Use actual implementation for task config validation
     validateTaskConfig: actual.validateTaskConfig,
+
+    // Use actual implementation for allowed API key providers constant
+    ALLOWED_API_KEY_PROVIDERS: actual.ALLOWED_API_KEY_PROVIDERS,
+
+    // Use actual implementation for standard validation providers constant
+    STANDARD_VALIDATION_PROVIDERS: actual.STANDARD_VALIDATION_PROVIDERS,
+
+    // Use actual implementation for validation schemas and functions
+    validate: actual.validate,
+    permissionResponseSchema: actual.permissionResponseSchema,
 
   // Utility functions
   fetchWithTimeout: vi.fn(() => Promise.resolve(new Response('{}'))),
@@ -573,7 +583,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('settings:set-debug-mode', true);
 
       // Assert
-      const { setDebugMode } = await import('@accomplish/core');
+      const { setDebugMode } = await import('@accomplish/agent-core');
       expect(setDebugMode).toHaveBeenCalledWith(true);
     });
 
@@ -836,7 +846,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('task:delete', taskId);
 
       // Assert
-      const { deleteTask } = await import('@accomplish/core');
+      const { deleteTask } = await import('@accomplish/agent-core');
       expect(deleteTask).toHaveBeenCalledWith(taskId);
     });
 
@@ -863,7 +873,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('task:clear-history');
 
       // Assert
-      const { clearHistory } = await import('@accomplish/core');
+      const { clearHistory } = await import('@accomplish/agent-core');
       expect(clearHistory).toHaveBeenCalled();
     });
   });
@@ -921,7 +931,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('onboarding:set-complete', true);
 
       // Assert
-      const { setOnboardingComplete } = await import('@accomplish/core');
+      const { setOnboardingComplete } = await import('@accomplish/agent-core');
       expect(setOnboardingComplete).toHaveBeenCalledWith(true);
     });
   });
@@ -1052,7 +1062,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('model:set', newModel);
 
       // Assert
-      const { setSelectedModel } = await import('@accomplish/core');
+      const { setSelectedModel } = await import('@accomplish/agent-core');
       expect(setSelectedModel).toHaveBeenCalledWith(newModel);
     });
 
@@ -1391,7 +1401,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('task:start', config);
 
       // Assert
-      const { saveTask } = await import('@accomplish/core');
+      const { saveTask } = await import('@accomplish/agent-core');
       expect(saveTask).toHaveBeenCalled();
     });
 
@@ -1515,7 +1525,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('session:resume', sessionId, prompt, existingTaskId);
 
       // Assert
-      const { addTaskMessage } = await import('@accomplish/core');
+      const { addTaskMessage } = await import('@accomplish/agent-core');
       expect(addTaskMessage).toHaveBeenCalledWith(
         existingTaskId,
         expect.objectContaining({
@@ -1543,7 +1553,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('session:resume', sessionId, prompt, existingTaskId);
 
       // Assert
-      const { updateTaskStatus } = await import('@accomplish/core');
+      const { updateTaskStatus } = await import('@accomplish/agent-core');
       expect(updateTaskStatus).toHaveBeenCalledWith(
         existingTaskId,
         'running',
@@ -1568,7 +1578,7 @@ describe('IPC Handlers Integration', () => {
       await invokeHandler('session:resume', sessionId, prompt);
 
       // Assert
-      const { addTaskMessage } = await import('@accomplish/core');
+      const { addTaskMessage } = await import('@accomplish/agent-core');
       // Should not be called for new tasks
       expect(addTaskMessage).not.toHaveBeenCalledWith(
         undefined,
