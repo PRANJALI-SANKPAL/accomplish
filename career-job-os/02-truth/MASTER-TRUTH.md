@@ -119,11 +119,16 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 ## Key systems user can defend (confirmed list 2026-08-03)
 
-1. **ClickHouse migration** — led and completed (MySQL → ClickHouse)
+1. **ClickHouse migration** — led and completed (MySQL → ClickHouse; ~60% latency / ~40% cost)
 2. **Demand Planning Platform** (Valiance / banking)
-3. **KM-Intelligence** (forensics/intelligence work — exact naming/stack to refine)
+3. **KM-Intelligence** (Valiance, Malaysia client) — intelligent people/info system; user started FE+BE planning; GraphQL + MongoDB unstructured data; React frontend led with 2 juniors; Django backend; last project at Valiance `[CONFIRMED 2026-08-03]`
 4. **Azolla — Fuel Emission Tracker** — calculations and related work
-5. **Mentored juniors**
+5. **Mentored juniors** (both companies; no generic headcount on resume)
+
+**KM-Intelligence public wording rules:**
+- Allowed: React, Django, GraphQL, MongoDB, planning FE/BE, led frontend with juniors, Malaysia client intelligent system
+- Forbidden: Go expert, zero trust architecture, DNS/TCP protocol optimization, claiming post-exit outcomes
+- Exact product display name: prefer **KM-Intelligence** unless user corrects spelling/branding
 
 Do not invent Go/zero-trust framing for KM-Intelligence unless separately confirmed.
 
