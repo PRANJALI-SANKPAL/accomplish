@@ -37,8 +37,8 @@
 | Claim | Sources | Status | Notes |
 |---|---|---|---|
 | Percipere Jul 2025 – Present | all | UNVERIFIED | |
-| Title: Java Consultant | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | |
-| Title: Software Engineer (Consultant) | Akamai, Microsoft, Mastercard, GROWW | CONFLICT | |
+| Title: Java Consultant | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | DENIED | not official |
+| Title: Software Engineer (Consultant) | Akamai, Microsoft, Mastercard, GROWW + user 2026-08-03 | CONFIRMED | use everywhere |
 | Valiance Nov 2023 – June 2025 | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | |
 | Valiance Nov 2023 – Jul 2025 | Akamai, Microsoft, Mastercard, GROWW | CONFLICT | overlaps Percipere if Jul |
 | Title Valiance: Software Developer | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | |

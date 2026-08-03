@@ -32,15 +32,16 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 ## Experience (canonical timeline)
 
-### Percipere — Mumbai | Java Consultant / Software Engineer (Consultant)
+### Percipere — Mumbai | Software Engineer (Consultant)
 - Dates: July 2025 – Present
+- Official title: Software Engineer (Consultant) `[CONFIRMED 2026-08-03]`
 - Product: Futuroot (data mining/analytics / member money movement — clarify primary product name) `[NEEDS USER CONFIRMATION: primary product narrative]`
 - Allowed true themes (use only if accurate):
   - Backend services in Java (Spring Boot) and/or Python (FastAPI)
   - ClickHouse migration leadership/design review from MySQL (prefer MySQL unless user confirms PostgreSQL)
   - REST APIs, Docker, code review, production debugging
   - Optional if true: Angular dashboards, MCP/AI chatbot tooling (secondary, not headline identity)
-- Title to standardize: pick one → `Software Engineer (Consultant)` OR `Java Consultant` `[NEEDS USER CONFIRMATION]`
+- Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`
 
 ### Valiance Solutions — Delhi NCR | Software Developer / Software Engineer
 - Dates: Nov 2023 – June 2025 *(prefer June to avoid overlap; confirm)* `[NEEDS USER CONFIRMATION]`
