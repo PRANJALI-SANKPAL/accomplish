@@ -132,7 +132,8 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Azolla Fuel Emission Tracker (calculations+) | user 2026-08-03 | CONFIRMED | project on key list |
 | Mentored juniors (activity) | user 2026-08-03 | CONFIRMED | both companies; do not quantify on resume |
 | Mentored exactly 2 juniors | many resumes | DENIED | user: don't quantify |
-| Frontend strength (best-at self-assess) | user 2026-08-03 | UNVERIFIED | capture stack before headline claim |
+| Frontend strength (best-at self-assess) | user 2026-08-03 | CONFIRMED | use via Full Stack emphasis variant (option C), not conflicting identity |
+| Resume strategy: Backend master + Full Stack variant | user 2026-08-03 | CONFIRMED | same facts; emphasis only |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)

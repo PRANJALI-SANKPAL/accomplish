@@ -29,7 +29,11 @@ Do **not** claim Go contributions for these unless an MR is actually Go — thes
 
 ## Positioning (canonical)
 
-**Backend Software Engineer** with 3+ years building Java/Spring Boot and Python/FastAPI services for fintech and analytics platforms. Strongest proof: production data/platform work including a MySQL→ClickHouse migration with ~60% query latency reduction and ~40% infra cost reduction.
+**Primary master:** Backend Software Engineer with 3+ years building Java/Spring Boot and Python services for fintech and analytics platforms. Strongest proof: production data/platform work including a MySQL→ClickHouse migration with ~60% query latency reduction and ~40% infra cost reduction.
+
+**Also maintain (same facts, different emphasis):** Full Stack variant — Java/Spring + React/Angular/Highcharts — for full-stack JDs `[CONFIRMED strategy 2026-08-03: option C]`.
+
+Do not create conflicting facts between the two variants — only emphasis/order changes.
 
 Primary stack to claim:
 - Languages: Java, Python, SQL (JavaScript/TypeScript secondary)
