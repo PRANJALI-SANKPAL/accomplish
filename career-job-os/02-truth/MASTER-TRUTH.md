@@ -14,7 +14,17 @@
   - Note: older resume text used shortened display labels (`linkedin.com/in/pranjali`, `linkedin.com/in/pranjalisankpal`) as Overleaf hyperlink labels — canonical href is the URL above
 - GitHub: https://github.com/PRANJALI-SANKPAL `[CONFIRMED 2026-08-03]`
   - Note: older resume text sometimes showed `github.com/pranjali` as Overleaf hyperlink label — canonical href is the URL above
-- GitLab: gitlab.com/PRANJALI-SANKPAL `[CONFIRM]`
+- GitLab: https://gitlab.com/PRANJALI-SANKPAL `[CONFIRMED profile path from MRs 2026-08-03]`
+
+## Open source (confirmed MRs)
+
+GitLab contributor (Mar 2025 – Present). Merged MRs in `gitlab-org/gitlab`:
+
+1. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840 — Add "Snooze until next week" to To-Do List (merged)
+2. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260 — Fix: Allow Geo sync requests even if Git over HTTP is disabled (merged)
+3. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707 — Fix: Make custom status name index case-insensitive (merged)
+
+Do **not** claim Go contributions for these unless an MR is actually Go — these appear Rails/Ruby/backend platform work.
 
 ## Positioning (canonical)
 

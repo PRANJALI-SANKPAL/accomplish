@@ -23,7 +23,10 @@
 | GitHub: github.com/pranjali | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | display label only |
 | GitHub: github.com/PRANJALI-SANKPAL | Akamai, GROWW | CONFLICT | display label / path |
 | GitHub canonical: https://github.com/PRANJALI-SANKPAL | user confirm 2026-08-03 | CONFIRMED | use this href everywhere |
-| GitLab: gitlab.com/PRANJALI-SANKPAL | Microsoft, Mastercard, GROWW | UNVERIFIED | |
+| GitLab: gitlab.com/PRANJALI-SANKPAL | Microsoft, Mastercard, GROWW | CONFIRMED | matches MR author |
+| GitLab MR 185840 snooze next week | user 2026-08-03 | CONFIRMED | merged |
+| GitLab MR 190260 Geo HTTP sync fix | user 2026-08-03 | CONFIRMED | merged |
+| GitLab MR 191707 case-insensitive status index | user 2026-08-03 | CONFIRMED | merged |
 
 ## Years of experience wording
 
