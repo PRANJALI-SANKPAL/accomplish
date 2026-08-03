@@ -1,0 +1,2 @@
+date,company,role_title,job_id,url,tier,fit_score,resume_version,referral_status,channel,status,next_action_date,notes
+2026-08-03,EXAMPLE,Backend SDE,R000,https://example.com,B,80,master-v1,ASKED,PORTAL,APPLIED,2026-08-17,sample row delete later
