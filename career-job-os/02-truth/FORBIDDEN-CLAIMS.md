@@ -23,10 +23,16 @@ Agents must never write these unless Master Truth is updated with proof and user
 
 ## Tone / AI tells to delete
 
-- “Passionate engineer seeking to leverage…”
-- “Continuous learner attending conferences…” filler
+- "Passionate engineer seeking to leverage..."
+- "Continuous learner attending conferences..." filler
 - Listing Claude Code / Cursor as a core skill headline (optional one-line under tools max; never identity)
-- Architected/owned language for work that was contribution-only — use accurate verbs
+- Architected/owned language for work that was contribution-only - use accurate verbs
+- AI verb pile: spearheaded, leveraged, orchestrated, utilized, pioneered
+- AI vocab: robust, seamless, pivotal, intricate, delve, realm, synergistic, cutting-edge, results-driven
+- Em dashes, arrows, tildes, fancy bullet characters (ASCII-only resumes)
+- Perfect identical bullet symmetry across every role
+- JD keyword parrot pasted into every bullet
+- Special characters in PDF body (see `03-resume/RECRUITER-AND-AI-TELLS.md`)
 
 ## Targeting forbids
 

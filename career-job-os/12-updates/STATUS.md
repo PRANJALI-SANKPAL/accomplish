@@ -12,12 +12,11 @@ Updated: 2026-08-03
 - [x] Canonical GitHub URL chosen
 - [x] Original resumes archived in `13-source-data/` (never delete)
 - [x] Master Truth **v1.0 LOCKED**
-- [x] Master Resume Backend v1 written
-- [x] Master Resume Full Stack v1 written
-- [x] ATS + human-tone audit written; Backend/FS **v1.1** human-touch shipped
-- [x] LinkedIn copy v1 written (About warmed slightly)
-- [ ] User pastes LinkedIn copy live
-- [ ] User builds Overleaf PDFs from **v1.1** masters
+- [x] Master Resume Backend / Full Stack **v2** shipped (story-led, ASCII, ATS 95+ checklist)
+- [x] LinkedIn copy **v2** written
+- [x] Recruiter + AI-tell rules documented
+- [ ] User pastes LinkedIn copy v2 live
+- [ ] User builds Overleaf PDFs from **v2** masters (no special characters)
 - [ ] Trackers cleaned of sample rows
 - [ ] Tier A list expanded to 20 companies
 - [ ] DSA streak started
@@ -33,8 +32,9 @@ None for resume lock. Next risk = applying with old conflicting PDFs.
 
 ## Next human action
 1. Open **`04-plan/START-HERE-APPLY-TODAY.md`** (exact URLs + Day 1–5)
-2. Update LinkedIn using `03-resume/LINKEDIN-COPY-v1.md`
-3. Typeset Overleaf PDFs from Backend + Full Stack v1
+3. Typeset Overleaf PDFs from Backend + Full Stack **v2**
 4. Set up Instahyre / Hirist / Wellfound / Naukri
-5. Apply Top 10 (GROWW → Freshworks) with referral-first process
+5. Apply Top 10 (GROWW -> Freshworks) with referral-first process
 6. Follow `04-plan/DAILY-OS.md` after Day 1 setup
+
+LinkedIn paste file: `03-resume/LINKEDIN-COPY-v2.md`

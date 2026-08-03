@@ -1,8 +1,9 @@
 # Master Resume — FULL STACK v1.1 (human-touch)
 
+> **Apply with v2 instead:** `MASTER-RESUME-FULLSTACK-v2.md`  
 > Locked to Master Truth v1.0 (same facts as Backend; frontend emphasis).  
 > Filename: `Pranjali-Sankpal-Resume-FullStack.pdf`  
-> Supersedes: `MASTER-RESUME-FULLSTACK-v1.md` for FE-heavy JDs.
+> Superseded for applications.
 
 ---
 

@@ -1,5 +1,7 @@
 # LinkedIn copy — v1.0 (matches Master Truth)
 
+> **Use v2 instead:** `LINKEDIN-COPY-v2.md` (ASCII, matches resume v2).
+>
 > Paste manually. Keep Experience facts identical to resumes.
 
 ## Headline

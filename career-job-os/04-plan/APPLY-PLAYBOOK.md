@@ -11,8 +11,8 @@
 
 | Item | Use |
 |---|---|
-| Default resume | `03-resume/MASTER-RESUME-BACKEND-v1.1.md` → PDF |
-| Full-stack JD | `03-resume/MASTER-RESUME-FULLSTACK-v1.1.md` → PDF |
+| Default resume | `03-resume/MASTER-RESUME-BACKEND-v2.md` -> PDF |
+| Full-stack JD | `03-resume/MASTER-RESUME-FULLSTACK-v2.md` -> PDF |
 | LinkedIn | must match Master Truth (`03-resume/LINKEDIN-COPY-v1.md`) |
 | Level to seek | SDE-1 / Software Engineer / Backend Engineer **2–4 YOE** |
 | Level to skip | Senior/Staff/SMTS/8+ YOE / networking-edge specialist / fraud-expert roles |

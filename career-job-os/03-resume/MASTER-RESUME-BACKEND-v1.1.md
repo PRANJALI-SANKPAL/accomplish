@@ -1,10 +1,11 @@
 # Master Resume — BACKEND v1.1 (human-touch)
 
+> **Apply with v2 instead:** `MASTER-RESUME-BACKEND-v2.md`  
 > Locked to Master Truth v1.0. Same facts as v1.0; clearer voice for humans.  
 > ATS target: hold ≥82. Human skim target: ≥80.  
 > Overleaf: hyperlink LinkedIn/GitHub/GitLab MR labels to canonical URLs.  
 > Filename: `Pranjali-Sankpal-Resume-Backend.pdf`  
-> Supersedes: `MASTER-RESUME-BACKEND-v1.md` for applications (v1 kept for history).
+> Superseded for applications.
 
 ---
 

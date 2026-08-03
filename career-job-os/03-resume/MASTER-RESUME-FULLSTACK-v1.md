@@ -1,6 +1,6 @@
 # Master Resume — FULL STACK v1.0
 
-> **Apply with v1.1 instead:** `MASTER-RESUME-FULLSTACK-v1.1.md` (same facts, better human tone).  
+> **Apply with v2 instead:** `MASTER-RESUME-FULLSTACK-v2.md` (story-led, ASCII, ATS 95+).  
 > Locked to Master Truth v1.0 (same facts as Backend v1; frontend emphasis).  
 > Filename suggestion: `Pranjali-Sankpal-Resume-FullStack.pdf`
 

@@ -72,8 +72,9 @@ Sandip University, Nashik — B.Tech Aerospace Engineering — CGPA 8.57/10 — 
 
 ## Dual resume outputs
 
-- `03-resume/MASTER-RESUME-BACKEND-v1.1.md` (**apply with this**)
-- `03-resume/MASTER-RESUME-FULLSTACK-v1.1.md` (**apply with this**)
-- `03-resume/MASTER-RESUME-BACKEND-v1.md` / `FULLSTACK-v1.md` (history; superseded)
-- `03-resume/LINKEDIN-COPY-v1.md`
-- Tone/ATS: `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md`
+- `03-resume/MASTER-RESUME-BACKEND-v2.md` (**apply with this**)
+- `03-resume/MASTER-RESUME-FULLSTACK-v2.md` (**apply with this**)
+- `03-resume/LINKEDIN-COPY-v2.md` (**paste this**)
+- `03-resume/RECRUITER-AND-AI-TELLS.md` (recruiter lens + AI-tell bans)
+- `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md`
+- Older: v1 / v1.1 kept for history only

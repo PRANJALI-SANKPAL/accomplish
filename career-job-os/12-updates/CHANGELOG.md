@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-08-03 (resume v2 story + ATS 95+)
+- Rewrote Backend + Full Stack to **v2.0**: story-led bullets (problem -> action -> result), ASCII-only, AI-tell scrub.
+- Target ATS checklist score **95+**; human voice ~88; company-wise tailoring deferred.
+- Added `RECRUITER-AND-AI-TELLS.md`, `LINKEDIN-COPY-v2.md`; refreshed audit.
+- Pointed all apply entry points at v2.
+
 ## 2026-08-03 (ATS + human tone)
 - Audited master resumes: ATS ~84 (good); human tone ~68–72 (dry/generic but honest).
 - Wrote `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` with scoreboard vs old tailored set.

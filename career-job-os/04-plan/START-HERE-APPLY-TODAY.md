@@ -3,9 +3,10 @@
 **Read this file when you want to apply.**  
 The 12-week plan is phases only. **This file is the operating instruction: where, how, what, in what order.**
 
-**Resume to upload everywhere:** Backend PDF from `03-resume/MASTER-RESUME-BACKEND-v1.1.md`  
-**Only use Full Stack PDF when JD is clearly FE-heavy** (`MASTER-RESUME-FULLSTACK-v1.1.md`)  
-**Tone/ATS notes:** `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md`
+**Resume to upload everywhere:** Backend PDF from `03-resume/MASTER-RESUME-BACKEND-v2.md`  
+**Only use Full Stack PDF when JD is clearly FE-heavy** (`MASTER-RESUME-FULLSTACK-v2.md`)  
+**Tone/ATS notes:** `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` + `RECRUITER-AND-AI-TELLS.md`  
+**Rule:** ASCII only in PDF body (no special characters). Company-wise tailoring later.
 
 ---
 
@@ -15,9 +16,9 @@ Do these in order. Do not apply until boxes 1–4 are done.
 
 | # | Action | Exact place | Done? |
 |---|---|---|---|
-| 1 | Paste LinkedIn About + Experience | Copy from `03-resume/LINKEDIN-COPY-v1.md` → https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ | [ ] |
-| 2 | Export Backend PDF (v1.1) | Overleaf from `MASTER-RESUME-BACKEND-v1.1.md` → `Pranjali_Sankpal_Backend.pdf` | [ ] |
-| 3 | Export Full Stack PDF (v1.1) | Overleaf from `MASTER-RESUME-FULLSTACK-v1.1.md` → `Pranjali_Sankpal_FullStack.pdf` | [ ] |
+| 1 | Paste LinkedIn About + Experience | Copy from `03-resume/LINKEDIN-COPY-v2.md` -> https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ | [ ] |
+| 2 | Export Backend PDF (v2) | Overleaf from `MASTER-RESUME-BACKEND-v2.md` -> `Pranjali_Sankpal_Backend.pdf` | [ ] |
+| 3 | Export Full Stack PDF (v2) | Overleaf from `MASTER-RESUME-FULLSTACK-v2.md` -> `Pranjali_Sankpal_FullStack.pdf` | [ ] |
 | 4 | Open tracker | `08-trackers/applications.csv` — delete sample rows if any; keep header | [ ] |
 
 ### Profile setup (same day, 45–60 min)
@@ -261,7 +262,9 @@ Tired day: 2 apps + 2 referrals + 1 DSA. Do not skip logging.
 | File | Why |
 |---|---|
 | **This file** | What to click today |
-| `03-resume/MASTER-RESUME-BACKEND-v1.md` | Source of truth for PDF |
+| `03-resume/MASTER-RESUME-BACKEND-v2.md` | Source of truth for PDF |
+| `03-resume/LINKEDIN-COPY-v2.md` | LinkedIn paste |
+| `03-resume/RECRUITER-AND-AI-TELLS.md` | What recruiters scan / AI tells to avoid |
 | `09-templates/REFERRAL-MESSAGES.md` | DM text |
 | `08-trackers/applications.csv` | Log |
 | `08-trackers/referrals.csv` | Log |
