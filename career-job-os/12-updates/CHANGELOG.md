@@ -2,6 +2,7 @@
 
 ## 2026-08-03 (later)
 - User confirmed canonical LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ (Overleaf used short hyperlink labels).
+- User confirmed canonical GitHub: https://github.com/PRANJALI-SANKPAL
 - Started Master Truth lock Q&A one-by-one.
 
 ## 2026-08-03

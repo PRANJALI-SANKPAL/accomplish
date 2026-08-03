@@ -55,7 +55,7 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
   - Backend for Demand Planning Platform (banking/fintech): Java, Spring Boot, PostgreSQL, Redis, AWS
   - REST APIs across fintech/logistics platforms
   - Event-driven work with Kafka/RabbitMQ `[CONFIRMED 2026-08-03: both]`
-  - Mentored 2 junior engineers
+  - Mentored junior engineers at Valiance and Percipere `[CONFIRMED — do not quantify]`
   - Production incident debugging, high availability goals
 - Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker (Django/Docker/AWS), forensics/MongoDB work — do not rewrite as Go zero-trust national security platform unless that exact work is true and documentable.
 
@@ -87,8 +87,8 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 | ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED `[2026-08-03]` |
 | ClickHouse migration ~60% query latency reduction | CONFIRMED `[2026-08-03]` |
 | ClickHouse migration ~40% infra cost reduction | CONFIRMED `[2026-08-03]` |
-| Mentored juniors | CONFIRMED at Valiance and Percipere `[2026-08-03]` — counts TBD |
-| Mentored 2 junior engineers | SUPERSEDED — user says managed juniors at both companies; exact counts TBD |
+| Mentored juniors | CONFIRMED at Valiance and Percipere `[2026-08-03]` — **do not quantify** on resume |
+| Mentored 2 junior engineers | DENIED for public use — user chose not to quantify |
 | Frontend strength (self-assessed best-at) | NOTED `[2026-08-03]` — stack/depth to confirm before headline |
 | Millions of banking transactions / sub-second queries (Demand Planning) | `[NEEDS USER CONFIRMATION]` — project itself listed as defendable |
 | 99.9% uptime | `[NEEDS USER CONFIRMATION]` — use only if measured |
