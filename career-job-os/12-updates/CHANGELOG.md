@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-08-03 (finalize)
+- Master Truth bumped to **v1.0 LOCKED** after user Q&A.
+- Wrote `MASTER-RESUME-BACKEND-v1.md`, `MASTER-RESUME-FULLSTACK-v1.md`, `LINKEDIN-COPY-v1.md`.
+- Dual strategy: Backend primary + Full Stack emphasis; KM-Intelligence BE/FE lead by JD.
+- STATUS moved to Phase 1 (packet locked).
+
 ## 2026-08-03 (later)
 - User confirmed canonical LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ (Overleaf used short hyperlink labels).
 - User confirmed canonical GitHub: https://github.com/PRANJALI-SANKPAL
