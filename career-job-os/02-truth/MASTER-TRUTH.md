@@ -1,7 +1,8 @@
 # MASTER TRUTH v0.1 — LOCKED UNTIL USER CONFIRMS
 
-> Status: **DRAFT FROM RESUME CROSS-AUDIT — USER MUST CONFIRM**  
-> Rule: Agents may not exceed these facts. Mark gaps `[NEEDS USER CONFIRMATION]`.
+> Status: **v0.9 — nearly locked from user Q&A (2026-08-03)**  
+> Rule: Agents may not exceed these facts. Mark gaps `[NEEDS USER CONFIRMATION]`.  
+> Remaining optional: Azolla one-liner depth; Smart Policing confirm/deny; FastAPI vs Django emphasis at Valiance.
 
 ## Identity
 
@@ -143,16 +144,33 @@ Note: calendar FTE from Nov 2023 is ~2y9m; user chose 3+ (includes intern Jul–
 
 ## Confirmation checklist for user
 
-Reply YES/NO/EDIT to each:
-1. Canonical LinkedIn URL
-2. Canonical GitHub URL
-3. Percipere official title
-4. Valiance end date (June vs July 2025)
-5. ClickHouse source DB (MySQL vs PostgreSQL)
-6. Which messaging systems in production (Kafka / RabbitMQ / both)
-7. Kubernetes production: yes/no
-8. Go production experience: none / minor / substantial (if substantial, describe)
-9. Fraud detection work: none / tangential / core (if core, describe)
-10. Best 3 metrics you can defend in an interview with numbers/method
-11. GitLab MR links (2–5)
-12. Primary product story for Percipere (one paragraph)
+Completed Q&A 2026-08-03:
+1. Canonical LinkedIn URL — DONE
+2. Canonical GitHub URL — DONE
+3. Percipere official title — DONE
+4. Valiance end date — DONE
+5. ClickHouse source DB — DONE
+6. Messaging systems — DONE
+7. Kubernetes production — DONE
+8. Go production depth — DONE
+9. Fraud detection depth — DONE
+10. Defendable systems + ClickHouse metrics — DONE
+11. GitLab MR links — DONE
+12. Percipere/Futuroot narrative — DONE
+13. Valiance title — DONE
+14. YOE wording 3+ — DONE
+15. Location/remote prefs — DONE
+16. Backend + Full Stack dual masters — DONE
+17. KM-Intelligence narrative + BE/FE emphasis — DONE
+
+Optional later (not blocking lock):
+- Azolla deeper one-liner
+- Smart Policing keep/drop
+- Member Money Movement keep/drop as named system
+
+## Next agent step after user says “lock / finalize”
+1. Bump Master Truth to v1.0
+2. Write `03-resume/MASTER-RESUME-BACKEND-v1.md`
+3. Write `03-resume/MASTER-RESUME-FULLSTACK-v1.md`
+4. Write LinkedIn copy via prompt 03
+5. Update STATUS.md
