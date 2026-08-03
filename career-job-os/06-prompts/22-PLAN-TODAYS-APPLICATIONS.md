@@ -20,3 +20,4 @@ OUTPUT:
 5. Exact checklist order for the next 2 hours
 6. CSV row stubs for applications.csv
 7. What NOT to apply to today (from ban list)
+```
