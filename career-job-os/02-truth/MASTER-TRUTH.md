@@ -32,6 +32,8 @@ Primary stack to claim:
 
 Do **not** claim as primary identity: Go expert, zero trust specialist, fraud detection expert, AI infra engineer, Oracle expert, DNS/TCP protocol engineer.
 
+**Go status:** Minor / learning / small scripts — not primary `[CONFIRMED 2026-08-03]`. May list as `Go (learning)` at most. Never “Go expert” or primary language.
+
 ## Experience (canonical timeline)
 
 ### Percipere — Mumbai | Software Engineer (Consultant)
