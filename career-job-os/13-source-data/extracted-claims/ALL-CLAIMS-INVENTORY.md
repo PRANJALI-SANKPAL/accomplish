@@ -115,7 +115,7 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | 6+ microservices owned | Microsoft, GROWW | UNVERIFIED |
 | 10+ REST APIs | GROWW | UNVERIFIED |
 | 3 production platforms | many | UNVERIFIED |
-| Mentored 2 juniors | many | UNVERIFIED |
+| Kubernetes production use | Microsoft, Mastercard, GROWW, Akamai, etc. + user 2026-08-03 | CONFIRMED | may list Kubernetes |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)

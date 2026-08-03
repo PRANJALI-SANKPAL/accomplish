@@ -25,7 +25,7 @@ Primary stack to claim:
 - Backend: Spring Boot, Spring Data JPA, FastAPI, REST APIs, microservices
 - Data: MySQL, PostgreSQL, ClickHouse, Redis
 - Messaging: Kafka, RabbitMQ `[CONFIRMED 2026-08-03: both used in production]`
-- Cloud/DevOps: AWS, Docker, CI/CD; Kubernetes only if truly used `[CONFIRM]`
+- Cloud/DevOps: AWS, Docker, Kubernetes, CI/CD `[CONFIRMED 2026-08-03: Kubernetes used in production]`
 - Practices: code review, production debugging, Agile
 
 **Confirmed migration:** MySQL → ClickHouse `[CONFIRMED 2026-08-03]` — do not write PostgreSQL → ClickHouse.
@@ -50,7 +50,7 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 - Themes allowed if true:
   - Backend for Demand Planning Platform (banking/fintech): Java, Spring Boot, PostgreSQL, Redis, AWS
   - REST APIs across fintech/logistics platforms
-  - Event-driven work with Kafka/RabbitMQ `[CONFIRM]`
+  - Event-driven work with Kafka/RabbitMQ `[CONFIRMED 2026-08-03: both]`
   - Mentored 2 junior engineers
   - Production incident debugging, high availability goals
 - Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker (Django/Docker/AWS), forensics/MongoDB work — do not rewrite as Go zero-trust national security platform unless that exact work is true and documentable.
