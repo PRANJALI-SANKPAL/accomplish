@@ -19,3 +19,8 @@
 - Added `13-source-data/`: verbatim archives of all 10 company resumes, full claims inventory, cross-matrix, session analysis.
 - Hardened AGENT-CONTRACT: never lose/delete source data; Master Truth ≠ data deletion.
 - Added prompt `21-INGEST-SOURCE-DATA-NO-LOSS.md`.
+
+## 2026-08-03 (repo home decision)
+- Abandoned private Cursor-resume-info transfer (agent token cannot access it).
+- Career Job OS permanently on personal fork `PRANJALI-SANKPAL/accomplish` under `career-job-os/` (merged to main).
+- Deleted temporary `cursor-resume-info-export` branch.
