@@ -1,0 +1,96 @@
+% Overleaf / pdflatex — Full Stack resume (1 page)
+% Same simple Charter layout as resume-backend.tex (original PDF layout reference).
+
+\documentclass[9pt,letterpaper]{extarticle}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{charter}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=10pt, itemsep=1.5pt, topsep=1.5pt, parsep=0pt, partopsep=0pt}
+
+\titleformat{\section}{\bfseries\fontsize{11}{13}\selectfont}{}{0em}{}[\vspace{1pt}\titlerule\vspace{3pt}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\newcommand{\job}[3]{%
+  \noindent\textbf{#1}\hfill{#2}\\[0pt]
+  \noindent\textit{#3}\vspace{1.5pt}\par
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{16}{18}\selectfont\bfseries Pranjali Pandurang Sankpal}\\[3pt]
+  {\fontsize{10}{12}\selectfont Full Stack Software Engineer $|$ Java / Spring Boot / React / Angular / Python $|$ Mumbai, India}\\[2pt]
+  {\fontsize{9}{11}\selectfont
+  \href{mailto:sankpranjali@gmail.com}{sankpranjali@gmail.com}
+  $|$ +91-8975410518
+  $|$ \href{https://github.com/PRANJALI-SANKPAL}{github.com/PRANJALI-SANKPAL}
+  $|$ \href{https://www.linkedin.com/in/pranjali-sankpal-aa1636232/}{linkedin.com/in/pranjali-sankpal}}\\[1pt]
+  {\fontsize{8.5}{10}\selectfont Open to Pan-India relocation and remote (including remote-from-India)}
+\end{center}
+
+\section*{Summary}
+Full Stack Software Engineer with 3+ years building Java Spring Boot and Python backends and React/Angular frontends for fintech and data products. Led a MySQL-to-ClickHouse migration on Futuroot cutting query latency about 60\% and infra cost about 40\%. Comfortable owning UI dashboards through API and data layers on AWS/Docker/Kubernetes. Google Cloud Certified Professional Cloud Developer and Architect.
+
+\section*{Technical Skills}
+\textbf{Languages:} Java, Python, JavaScript, TypeScript, SQL; Go (learning)\\
+\textbf{Backend:} Spring Boot, Spring Data JPA, Django, REST APIs, GraphQL, Microservices\\
+\textbf{Frontend:} React, Redux, Angular, Highcharts\\
+\textbf{Data:} MySQL, PostgreSQL, ClickHouse, Redis, MongoDB\\
+\textbf{Messaging:} Kafka, RabbitMQ\\
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, CI/CD, Git, Maven\\
+\textbf{Practices:} REST API Design, UI Integration, Code Review, Production Debugging, Agile
+
+\section*{Experience}
+
+\job{Software Engineer (Consultant), Percipere}{Jul 2025 -- Present}{Mumbai, India}
+\begin{itemize}
+  \item Build full-stack features for Futuroot (data mining and fintech): Java Spring Boot and Python backends with Angular and Highcharts dashboards.
+  \item Diagnosed slow MySQL analytics queries; led and completed migration to ClickHouse, cutting query latency about 60\% and infra cost about 40\%.
+  \item Built MCP-based chatbot tooling for platform access; design/consume REST APIs; Dockerize services; review code and debug production issues.
+\end{itemize}
+
+\job{Software Engineer, Valiance Solutions}{Nov 2023 -- Jun 2025}{Delhi NCR, India}
+\begin{itemize}
+  \item Led frontend delivery for KM-Intelligence (Malaysia client) in React; Django, GraphQL, MongoDB backend for unstructured data.
+  \item Built the banking Demand Planning Platform backend (Java, Spring Boot, PostgreSQL, Redis, AWS) and connected it to platform workflows.
+  \item Shipped full-stack features across fintech and logistics platforms (Java/Python/Node and React where needed).
+  \item Implemented Kafka and RabbitMQ async workflows; production debugging; mentored junior engineers.
+\end{itemize}
+
+\job{Frontend Developer Intern, KJSS Cosmos}{Jul 2023 -- Nov 2023}{Mumbai, India}
+\begin{itemize}
+  \item Built a role-based enterprise procurement platform in React/Redux with multi-level permissions and REST API integration.
+\end{itemize}
+
+\section*{Projects}
+\noindent\textbf{Futuroot (full stack + ClickHouse)} \textit{Percipere} --- Angular/Highcharts dashboards plus Java/Python backend; MySQL to ClickHouse (about 60\% / 40\%).\\[2pt]
+\noindent\textbf{KM-Intelligence} \textit{Valiance Solutions} --- React frontend lead plus Django/GraphQL/MongoDB backend planning and implementation.\\[2pt]
+\noindent\textbf{Demand Planning Platform} \textit{Valiance Solutions} --- Java Spring Boot banking backend with PostgreSQL, Redis, and AWS.
+
+\section*{Open Source Contributions}
+\noindent\textbf{GitLab -- Contributor}\hfill Mar 2025 -- Present
+\begin{itemize}
+  \item Merged MRs on gitlab-org/gitlab:
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840}{Snooze until next week},
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260}{Geo sync when Git HTTP disabled},
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707}{Case-insensitive custom status index}.
+\end{itemize}
+
+\section*{Education}
+\noindent\textbf{Sandip University, Nashik} -- B.Tech Aerospace Engineering (CGPA 8.57/10)\hfill Aug 2018 -- Sept 2022
+
+\section*{Certifications}
+\begin{itemize}
+  \item Google Cloud Professional Cloud Developer
+  \item Google Cloud Professional Cloud Architect
+  \item AWS Certified Solutions Architect -- Associate (SAA-C03): In Progress
+\end{itemize}
+
+\end{document}

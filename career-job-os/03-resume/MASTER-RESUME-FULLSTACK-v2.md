@@ -1,9 +1,7 @@
 # Master Resume - FULL STACK v2.0
 
-> Master Truth v1.0 facts only. Same story as Backend v2 with frontend emphasis.  
-> ASCII only. ATS 95+. Avoid AI-resume tells. Company-wise tailoring later.  
-> Filename: Pranjali-Sankpal-Resume-FullStack.pdf  
-> Apply with this for FE-heavy JDs (supersedes v1 and v1.1).
+> **Apply with v2.1 Overleaf PDF instead:** `overleaf/resume-fullstack.tex` + `MASTER-RESUME-FULLSTACK-v2.1.md`  
+> Superseded for layout.
 
 ---
 

@@ -1,9 +1,10 @@
 # Master Resume - BACKEND v2.0
 
-> Master Truth v1.0 facts only. Story-led. ASCII only (no special characters).  
+> **Apply with v2.1 Overleaf PDF instead:** `overleaf/resume-backend.tex` + `MASTER-RESUME-BACKEND-v2.1.md`  
+> Master Truth v1.0 facts only. Story-led. ASCII in markdown.  
 > Goals: ATS 95+, human voice, avoid AI-resume tells. Company-wise tailoring later.  
 > Filename: Pranjali-Sankpal-Resume-Backend.pdf  
-> Apply with this version (supersedes v1 and v1.1).
+> Superseded for layout (too long / harder to scan than original PDF layout).
 
 ---
 

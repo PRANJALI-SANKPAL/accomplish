@@ -10,11 +10,11 @@ That file has exact URLs, Day 1–5 clicks, Top 10 companies, and copy-paste mes
 
 1. Paste LinkedIn from `03-resume/LINKEDIN-COPY-v2.md`  
    → https://www.linkedin.com/in/pranjali-sankpal-aa1636232/
-2. Export Overleaf PDFs from **v2** masters: Backend + Full Stack  
-   (`03-resume/MASTER-RESUME-BACKEND-v2.md`, `MASTER-RESUME-FULLSTACK-v2.md`)  
-   ASCII only; no special characters
+2. Export PDFs from Overleaf using **`03-resume/overleaf/resume-backend.tex`** and **`resume-fullstack.tex`**  
+   (same simple Charter layout as your original PDF; body ~9pt like original, name ~16pt)  
+   Preview copies: `03-resume/exports/`  
 3. Open `04-plan/START-HERE-APPLY-TODAY.md` and keep it open
-3b. Read `03-resume/RECRUITER-AND-AI-TELLS.md` once; skim `ATS-AND-HUMAN-TONE-AUDIT.md`
+3b. Read `03-resume/LAYOUT-FROM-ORIGINAL.md` + `RECRUITER-AND-AI-TELLS.md` once
 
 ## Block B — Profiles (same day)
 

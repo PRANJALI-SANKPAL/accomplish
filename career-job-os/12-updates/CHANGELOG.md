@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-08-03 (layout match to original PDF)
+- User shared original PDF as **layout reference** (Charter ~9pt body, ~16pt name, simple one-column).
+- Added Overleaf `resume-backend.tex` / `resume-fullstack.tex` matching that layout; compiled 1-page previews in `exports/`.
+- Shortened bullets to original-style scan length (v2.1); long markdown paragraphs were harder to read.
+- PDF source of truth is now the `.tex` files, not freeform markdown paste.
+
 ## 2026-08-03 (resume v2 story + ATS 95+)
 - Rewrote Backend + Full Stack to **v2.0**: story-led bullets (problem -> action -> result), ASCII-only, AI-tell scrub.
 - Target ATS checklist score **95+**; human voice ~88; company-wise tailoring deferred.

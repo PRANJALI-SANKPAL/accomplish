@@ -12,11 +12,10 @@ Updated: 2026-08-03
 - [x] Canonical GitHub URL chosen
 - [x] Original resumes archived in `13-source-data/` (never delete)
 - [x] Master Truth **v1.0 LOCKED**
-- [x] Master Resume Backend / Full Stack **v2** shipped (story-led, ASCII, ATS 95+ checklist)
-- [x] LinkedIn copy **v2** written
-- [x] Recruiter + AI-tell rules documented
+- [x] Overleaf layout matched to original PDF (Charter, 1 page)
+- [x] Backend + Full Stack **v2.1** tex + markdown mirror
 - [ ] User pastes LinkedIn copy v2 live
-- [ ] User builds Overleaf PDFs from **v2** masters (no special characters)
+- [ ] User downloads Overleaf PDFs from `overleaf/*.tex` (or use `exports/` previews)
 - [ ] Trackers cleaned of sample rows
 - [ ] Tier A list expanded to 20 companies
 - [ ] DSA streak started
@@ -32,9 +31,10 @@ None for resume lock. Next risk = applying with old conflicting PDFs.
 
 ## Next human action
 1. Open **`04-plan/START-HERE-APPLY-TODAY.md`** (exact URLs + Day 1–5)
-3. Typeset Overleaf PDFs from Backend + Full Stack **v2**
+3. Typeset / download Overleaf PDFs from `03-resume/overleaf/*.tex` (layout = your original PDF style)
 4. Set up Instahyre / Hirist / Wellfound / Naukri
 5. Apply Top 10 (GROWW -> Freshworks) with referral-first process
 6. Follow `04-plan/DAILY-OS.md` after Day 1 setup
 
-LinkedIn paste file: `03-resume/LINKEDIN-COPY-v2.md`
+LinkedIn paste file: `03-resume/LINKEDIN-COPY-v2.md`  
+Resume PDF: `03-resume/exports/` previews or Overleaf compile of `overleaf/*.tex`

@@ -22,9 +22,12 @@ Phases only: [`04-plan/12-WEEK-PLAN.md`](04-plan/12-WEEK-PLAN.md) ← **not** fo
 | Need | File |
 |---|---|
 | Locked facts | `02-truth/MASTER-TRUTH.md` |
-| Backend resume (apply) | `03-resume/MASTER-RESUME-BACKEND-v2.md` |
-| Full stack resume (apply) | `03-resume/MASTER-RESUME-FULLSTACK-v2.md` |
+| Backend PDF (Overleaf) | `03-resume/overleaf/resume-backend.tex` |
+| Full stack PDF (Overleaf) | `03-resume/overleaf/resume-fullstack.tex` |
+| Backend markdown mirror | `03-resume/MASTER-RESUME-BACKEND-v2.1.md` |
+| Full stack markdown mirror | `03-resume/MASTER-RESUME-FULLSTACK-v2.1.md` |
 | LinkedIn copy (paste) | `03-resume/LINKEDIN-COPY-v2.md` |
+| Layout vs your original PDF | `03-resume/LAYOUT-FROM-ORIGINAL.md` |
 | ATS + human tone audit | `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` |
 | Recruiter / AI-tell rules | `03-resume/RECRUITER-AND-AI-TELLS.md` |
 | Company list + Top 10 | `11-lists/COMPANY-WATCHLIST.md` |

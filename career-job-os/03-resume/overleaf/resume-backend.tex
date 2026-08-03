@@ -1,0 +1,101 @@
+% Overleaf / pdflatex — Backend resume (1 page)
+% Layout matched to your original PDF: Charter, simple one-column, dense but readable.
+% Content: Master Truth. Compile twice: pdflatex resume-backend.tex
+
+\documentclass[9pt,letterpaper]{extarticle}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{charter}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=10pt, itemsep=1.5pt, topsep=1.5pt, parsep=0pt, partopsep=0pt}
+
+\titleformat{\section}{\bfseries\fontsize{11}{13}\selectfont}{}{0em}{}[\vspace{1pt}\titlerule\vspace{3pt}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\newcommand{\job}[3]{%
+  \noindent\textbf{#1}\hfill{#2}\\[0pt]
+  \noindent\textit{#3}\vspace{1.5pt}\par
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{16}{18}\selectfont\bfseries Pranjali Pandurang Sankpal}\\[3pt]
+  {\fontsize{10}{12}\selectfont Backend Software Engineer $|$ Java / Spring Boot / Python $|$ Mumbai, India}\\[2pt]
+  {\fontsize{9}{11}\selectfont
+  \href{mailto:sankpranjali@gmail.com}{sankpranjali@gmail.com}
+  $|$ +91-8975410518
+  $|$ \href{https://github.com/PRANJALI-SANKPAL}{github.com/PRANJALI-SANKPAL}
+  $|$ \href{https://www.linkedin.com/in/pranjali-sankpal-aa1636232/}{linkedin.com/in/pranjali-sankpal}}\\[1pt]
+  {\fontsize{8.5}{10}\selectfont Open to Pan-India relocation and remote (including remote-from-India)}
+\end{center}
+
+\section*{Summary}
+Backend Software Engineer with 3+ years of hands-on experience building Java Spring Boot and Python services for fintech and data products. Led a MySQL-to-ClickHouse migration on Futuroot cutting query latency about 60\% and infra cost about 40\%. Experience with REST APIs, PostgreSQL/MySQL, Redis, Kafka/RabbitMQ, and AWS/Docker/Kubernetes. Google Cloud Certified Professional Cloud Developer and Architect.
+
+\section*{Technical Skills}
+\textbf{Languages:} Java, Python, SQL, JavaScript, TypeScript; Go (learning)\\
+\textbf{Backend:} Spring Boot, Spring Data JPA, Django, REST APIs, Microservices, GraphQL\\
+\textbf{Data:} MySQL, PostgreSQL, ClickHouse, Redis, MongoDB\\
+\textbf{Messaging:} Kafka, RabbitMQ\\
+\textbf{Cloud \& DevOps:} AWS, Docker, Kubernetes, CI/CD, Git, Maven\\
+\textbf{Practices:} REST API Design, Database Design, Code Review, Production Debugging, Agile
+
+\section*{Experience}
+
+\job{Software Engineer (Consultant), Percipere}{Jul 2025 -- Present}{Mumbai, India}
+\begin{itemize}
+  \item Build Java Spring Boot and Python backend services for Futuroot (data mining and fintech), from design through production.
+  \item Diagnosed slow MySQL analytics queries; led and completed migration to ClickHouse, cutting query latency about 60\% and infra cost about 40\%.
+  \item Design and consume REST APIs across services; package workloads with Docker; review code and debug production issues.
+  \item Built MCP-based internal chatbot tooling for platform access; support Dockerized data and ops scripts.
+\end{itemize}
+
+\job{Software Engineer, Valiance Solutions}{Nov 2023 -- Jun 2025}{Delhi NCR, India}
+\begin{itemize}
+  \item Designed and built the Demand Planning Platform backend (Java, Spring Boot, PostgreSQL, Redis, AWS) for banking/fintech workflows.
+  \item Led backend planning and implementation for KM-Intelligence (Malaysia client) using Django, GraphQL, and MongoDB.
+  \item Added Kafka and RabbitMQ event-driven workflows for reliable asynchronous processing across services.
+  \item Shipped REST APIs across production fintech and logistics platforms; traced failures through logs and tuned slow paths.
+  \item Mentored junior engineers on delivery and code quality in Agile sprints.
+\end{itemize}
+
+\job{Frontend Developer Intern, KJSS Cosmos}{Jul 2023 -- Nov 2023}{Mumbai, India}
+\begin{itemize}
+  \item Built a role-based enterprise procurement platform in React/Redux with REST API integration.
+\end{itemize}
+
+\section*{Projects}
+\noindent\textbf{ClickHouse Migration} \textit{Futuroot / Percipere}\\
+Moved analytics from MySQL to ClickHouse; about 60\% lower query latency and about 40\% lower infrastructure cost.\\[3pt]
+\noindent\textbf{Demand Planning Platform} \textit{Valiance Solutions}\\
+Banking-domain Java Spring Boot backend with PostgreSQL, Redis, and AWS in production.\\[3pt]
+\noindent\textbf{KM-Intelligence} \textit{Valiance Solutions}\\
+Backend planning and implementation with Django, GraphQL, and MongoDB for a Malaysia client.
+
+\section*{Open Source Contributions}
+\noindent\textbf{GitLab -- Contributor}\hfill Mar 2025 -- Present
+\begin{itemize}
+  \item Merged MRs on gitlab-org/gitlab:
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840}{Snooze until next week},
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260}{Geo sync when Git HTTP disabled},
+        \href{https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707}{Case-insensitive custom status index}.
+\end{itemize}
+
+\section*{Education}
+\noindent\textbf{Sandip University, Nashik} -- B.Tech Aerospace Engineering (CGPA 8.57/10)\hfill Aug 2018 -- Sept 2022
+
+\section*{Certifications}
+\begin{itemize}
+  \item Google Cloud Professional Cloud Developer
+  \item Google Cloud Professional Cloud Architect
+  \item AWS Certified Solutions Architect -- Associate (SAA-C03): In Progress
+\end{itemize}
+
+\end{document}
