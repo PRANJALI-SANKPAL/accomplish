@@ -122,7 +122,10 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Go/Golang expert or primary | Akamai | DENIED | user: minor learning only |
 | Go (learning) / minor scripts | Microsoft + user 2026-08-03 | CONFIRMED | max claim: Go (learning) |
 | Fraud detection expert / core fraud systems | Mastercard | DENIED | user: tangential only |
-| ClickHouse migration led & completed | user 2026-08-03 | CONFIRMED | ownership confirmed; % TBD |
+| Futuroot = data mining + fintech | user 2026-08-03 | CONFIRMED | primary Percipere product |
+| Percipere MCP chatbot / agentic AI | user 2026-08-03 | CONFIRMED | secondary theme; not whole identity |
+| Percipere Angular dashboards / Highcharts | user 2026-08-03 | CONFIRMED | frontend work at Percipere |
+| Percipere Docker script runs | user 2026-08-03 | CONFIRMED | |
 | Demand Planning (defendable) | user 2026-08-03 | CONFIRMED | project on key list |
 | KM-Intelligence (defendable) | user 2026-08-03 | CONFIRMED | naming; not Go-expert rewrite |
 | Azolla Fuel Emission Tracker (calculations+) | user 2026-08-03 | CONFIRMED | project on key list |

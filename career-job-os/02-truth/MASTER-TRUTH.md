@@ -51,12 +51,15 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 ### Percipere — Mumbai | Software Engineer (Consultant)
 - Dates: July 2025 – Present
 - Official title: Software Engineer (Consultant) `[CONFIRMED 2026-08-03]`
-- Product: Futuroot (data mining/analytics / member money movement — clarify primary product name) `[NEEDS USER CONFIRMATION: primary product narrative]`
-- Allowed true themes (use only if accurate):
-  - Backend services in Java (Spring Boot) and/or Python (FastAPI)
-  - ClickHouse migration leadership/design review from MySQL `[CONFIRMED 2026-08-03: MySQL → ClickHouse]`
+- Product: **Futuroot** — data mining and fintech product `[CONFIRMED 2026-08-03]`
+- Main work (user summary): data mining + fintech features including MCP chatbot, agentic AI, Docker-based script runs, Angular dashboards (Highcharts), plus ClickHouse migration ownership
+- Main stack used (user): Java, Spring Boot, Docker, Python, MySQL, ClickHouse, MCP, Agentic AI, Angular, Highcharts (+ more)
+- Allowed themes for public resume:
+  - Backend services in Java (Spring Boot) and Python
+  - ClickHouse migration (MySQL → ClickHouse; ~60% latency / ~40% cost)
   - REST APIs, Docker, code review, production debugging
-  - Optional if true: Angular dashboards, MCP/AI chatbot tooling (secondary, not headline identity)
+  - Angular dashboards / Highcharts (frontend at Percipere) `[CONFIRMED]`
+  - MCP chatbot / agentic AI tooling as **secondary** bullets when JD-relevant — not a whole alternate identity rewrite
 - Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`
 
 ### Valiance Solutions — Delhi NCR | Software Developer / Software Engineer
