@@ -33,7 +33,8 @@ Expected honest ranges (India, 2026 research synthesis):
 5. Update trackers in `08-trackers/` and changelog in `12-updates/CHANGELOG.md`.
 6. Never rewrite primary language, scale, or domain to match a JD.
 
-If context is tiny: **only open the specific prompt file + MASTER-TRUTH + FORBIDDEN-CLAIMS**.
+If context is tiny: **only open the specific prompt file + MASTER-TRUTH + FORBIDDEN-CLAIMS**.  
+If the task involves user pastes or history: also open `13-source-data/README.md` and never skip archiving.
 
 ---
 
@@ -54,6 +55,7 @@ If context is tiny: **only open the specific prompt file + MASTER-TRUTH + FORBID
 | `10-prep/` | DSA / LLD / HLD / behavioral plans | Interview prep |
 | `11-lists/` | Target / ban / priority lists | Choosing where to apply |
 | `12-updates/` | Changelog + weekly review log | End of day/week |
+| `13-source-data/` | **Immutable archives** of all user resumes/claims | Always preserve; never delete |
 
 ---
 

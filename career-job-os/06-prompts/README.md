@@ -24,3 +24,4 @@ Each file is a copy-paste prompt. Always pair with AGENT-CONTRACT + MASTER-TRUTH
 | 18 | `18-OA-PREP-SPRINT.md` | Before OA |
 | 19 | `19-EXPAND-TARGET-LIST.md` | Grow company list |
 | 20 | `20-ARCHIVE-OLD-RESUMES.md` | Quarantine bad PDFs |
+| 21 | `21-INGEST-SOURCE-DATA-NO-LOSS.md` | Archive new user data without loss |

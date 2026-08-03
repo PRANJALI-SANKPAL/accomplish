@@ -1,6 +1,7 @@
 # Ban or deprioritize list
 
-## Do not use these resume identities anymore
+## Do not *send* these resume identities anymore (but keep archives)
+Source text remains forever in `13-source-data/resumes-original/`. Ban = do not submit publicly.
 - Akamai Go / zero-trust / DNS-TCP expert PDF
 - Microsoft hyperscale AI inference PDF
 - Mastercard fraud/Oracle/billions PDF

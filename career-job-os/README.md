@@ -6,6 +6,8 @@ Start here: [`00-read-first/README.md`](00-read-first/README.md)
 
 **Important:** No system can guarantee a job. This OS maximizes shortlist/offer probability by enforcing one truthful career identity, correct company targeting, referral-first pipeline, and interview prep.
 
+**Data preservation:** All original company resumes and extracted claims live in [`13-source-data/`](13-source-data/). Master Truth controls what you *publicly claim*; it must never erase source history.
+
 ## Quick start for agents
 
 ```text

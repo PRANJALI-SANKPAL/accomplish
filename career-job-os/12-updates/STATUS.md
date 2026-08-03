@@ -22,5 +22,10 @@ Updated: 2026-08-03
 1. Master Truth still DRAFT — needs user YES/NO/EDIT
 2. Resume set currently NOT shortlist-safe (see AUDIT-VERDICT)
 
+## Data preservation
+- [x] All 10 original resumes archived under `13-source-data/resumes-original/`
+- [x] Claims inventory + cross-matrix created (no claims dropped)
+- [x] Agent contract forbids deleting source data
+
 ## Next human action
 Answer confirmation checklist in `02-truth/MASTER-TRUTH.md`, then run prompt `13-UPDATE-MASTER-TRUTH` and `03-ALIGN-LINKEDIN`.

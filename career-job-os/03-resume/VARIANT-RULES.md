@@ -16,6 +16,7 @@
 4. Changing dates/titles/companies.
 5. “Ready to contribute to [Company mission]…” AI closers.
 6. Creating a second conflicting PDF that contradicts LinkedIn.
+7. Deleting or overwriting files in `13-source-data/` when “cleaning” variants — archive stays forever; only public packet is curated.
 
 ## Company emphasis map (safe)
 

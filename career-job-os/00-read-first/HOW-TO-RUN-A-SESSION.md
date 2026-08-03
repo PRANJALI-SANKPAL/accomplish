@@ -37,6 +37,7 @@ INPUT: <paste JD or details>
 | OA sprint | `06-prompts/18-OA-PREP-SPRINT.md` |
 | Expand targets | `06-prompts/19-EXPAND-TARGET-LIST.md` |
 | Archive old resumes | `06-prompts/20-ARCHIVE-OLD-RESUMES.md` |
+| Ingest new data (no loss) | `06-prompts/21-INGEST-SOURCE-DATA-NO-LOSS.md` |
 
 ## End of every session
 

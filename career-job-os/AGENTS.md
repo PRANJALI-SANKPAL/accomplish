@@ -9,3 +9,5 @@ Before any career task:
 4. Matching file in `06-prompts/`
 
 Never invent experience to match a job description.
+
+**Never delete `13-source-data/`.** Originals + claims inventory are permanent. Public resumes are curated from confirmed Master Truth only.

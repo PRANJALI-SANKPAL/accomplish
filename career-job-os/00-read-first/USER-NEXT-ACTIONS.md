@@ -2,11 +2,13 @@
 
 ## Today
 1. Answer every confirmation item in `02-truth/MASTER-TRUTH.md` (YES/NO/EDIT).
-2. Pick ONE LinkedIn URL and ONE GitHub URL; update all profiles to match.
-3. Archive old tailored PDFs (Adobe-Go-Akamai-Microsoft-etc. conflicting set) into a folder named `RESUME-ARCHIVE-DO-NOT-SEND/`.
-4. Tell an agent: run prompt `13-UPDATE-MASTER-TRUTH` with your answers.
-5. Tell an agent: run prompt `03-ALIGN-LINKEDIN`, then update LinkedIn manually.
-6. Finalize Master Resume from draft; pass `07-checklists/RESUME-GATE.md`.
+2. Optionally walk `13-source-data/extracted-claims/ALL-CLAIMS-INVENTORY.md` and mark CONFIRMED/DENIED — **do not delete rows**.
+3. Pick ONE LinkedIn URL and ONE GitHub URL; update all profiles to match.
+4. Keep local PDF copies if you have them; repo already has verbatim text of all 10 versions in `13-source-data/resumes-original/`.
+5. Tell an agent: run prompt `13-UPDATE-MASTER-TRUTH` with your answers.
+6. Tell an agent: run prompt `03-ALIGN-LINKEDIN`, then update LinkedIn manually.
+7. Finalize Master Resume from draft; pass `07-checklists/RESUME-GATE.md`.
+8. Any new resume/JD/rejection note you paste later → agent must use prompt `21-INGEST-SOURCE-DATA-NO-LOSS` first.
 
 ## This week
 7. Expand `11-lists/COMPANY-WATCHLIST.md` to 20+ Tier A/B companies.
