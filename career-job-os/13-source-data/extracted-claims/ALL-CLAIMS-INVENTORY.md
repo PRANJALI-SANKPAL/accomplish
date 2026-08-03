@@ -123,7 +123,9 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Demand Planning (defendable) | user 2026-08-03 | CONFIRMED | project on key list |
 | KM-Intelligence (defendable) | user 2026-08-03 | CONFIRMED | naming; not Go-expert rewrite |
 | Azolla Fuel Emission Tracker (calculations+) | user 2026-08-03 | CONFIRMED | project on key list |
-| Mentored juniors (activity) | user 2026-08-03 | CONFIRMED | count TBD |
+| Mentored juniors (activity) | user 2026-08-03 | CONFIRMED | both Valiance and Percipere |
+| Mentored exactly 2 juniors | many resumes | CONFLICT | superseded; counts TBD per company |
+| Frontend strength (best-at self-assess) | user 2026-08-03 | UNVERIFIED | capture stack before headline claim |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)

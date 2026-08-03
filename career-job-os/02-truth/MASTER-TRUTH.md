@@ -87,8 +87,9 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 | ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED `[2026-08-03]` |
 | ClickHouse migration ~60% query latency reduction | CONFIRMED `[2026-08-03]` |
 | ClickHouse migration ~40% infra cost reduction | CONFIRMED `[2026-08-03]` |
-| Mentored juniors | CONFIRMED as activity `[2026-08-03]` — count still to confirm |
-| Mentored 2 junior engineers | `[NEEDS USER CONFIRMATION]` |
+| Mentored juniors | CONFIRMED at Valiance and Percipere `[2026-08-03]` — counts TBD |
+| Mentored 2 junior engineers | SUPERSEDED — user says managed juniors at both companies; exact counts TBD |
+| Frontend strength (self-assessed best-at) | NOTED `[2026-08-03]` — stack/depth to confirm before headline |
 | Millions of banking transactions / sub-second queries (Demand Planning) | `[NEEDS USER CONFIRMATION]` — project itself listed as defendable |
 | 99.9% uptime | `[NEEDS USER CONFIRMATION]` — use only if measured |
 | 100M+ daily events / 500K req/day / billions data points / sub-ms / billions txs/month | **FORBIDDEN until proven** |
