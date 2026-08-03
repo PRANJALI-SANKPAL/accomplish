@@ -9,7 +9,8 @@
 - Email: sankpranjali@gmail.com
 - Phone: +91-8975410518
 - Location: Mumbai, India
-- Open to: Pan-India relocation & remote `[CONFIRM]`
+- Open to: Pan-India relocation & remote `[CONFIRMED 2026-08-03]`
+- Remote interest: exploring remote-from-India roles with US / UK / Europe companies `[CONFIRMED 2026-08-03]`
 - LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ `[CONFIRMED 2026-08-03]`
   - Note: older resume text used shortened display labels (`linkedin.com/in/pranjali`, `linkedin.com/in/pranjalisankpal`) as Overleaf hyperlink labels — canonical href is the URL above
 - GitHub: https://github.com/PRANJALI-SANKPAL `[CONFIRMED 2026-08-03]`
@@ -28,7 +29,7 @@ Do **not** claim Go contributions for these unless an MR is actually Go — thes
 
 ## Positioning (canonical)
 
-**Backend Software Engineer** with ~2.5–3 years building Java/Spring Boot and Python/FastAPI services for fintech and analytics platforms. Strongest proof: production data/platform work including a MySQL→ClickHouse migration with ~60% query latency reduction and ~40% infra cost reduction.
+**Backend Software Engineer** with 3+ years building Java/Spring Boot and Python/FastAPI services for fintech and analytics platforms. Strongest proof: production data/platform work including a MySQL→ClickHouse migration with ~60% query latency reduction and ~40% infra cost reduction.
 
 Primary stack to claim:
 - Languages: Java, Python, SQL (JavaScript/TypeScript secondary)

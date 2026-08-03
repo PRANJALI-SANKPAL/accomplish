@@ -14,7 +14,8 @@
 | Email: sankpranjali@gmail.com | all | UNVERIFIED | |
 | Phone: +91-8975410518 | all | UNVERIFIED | |
 | Location: Mumbai | most | UNVERIFIED | |
-| Open to Pan-India relocation & remote | Akamai, GROWW | UNVERIFIED | |
+| Open to Pan-India relocation & remote | Akamai, GROWW + user 2026-08-03 | CONFIRMED | |
+| Remote-from-India interest: US/UK/Europe | user 2026-08-03 | CONFIRMED | explore remote international; stay honest about India base |
 | Bengaluru / Mumbai | Amazon, Wells, PayPal | UNVERIFIED | |
 | Timezone flexible / 100% remote-ready | Microsoft, Mastercard | UNVERIFIED | |
 | LinkedIn: linkedin.com/in/pranjali | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | display label only |
