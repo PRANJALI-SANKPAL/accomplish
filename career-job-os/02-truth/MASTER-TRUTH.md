@@ -12,8 +12,8 @@
 - Open to: Pan-India relocation & remote `[CONFIRM]`
 - LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ `[CONFIRMED 2026-08-03]`
   - Note: older resume text used shortened display labels (`linkedin.com/in/pranjali`, `linkedin.com/in/pranjalisankpal`) as Overleaf hyperlink labels — canonical href is the URL above
-- GitHub: **pick ONE canonical URL** `[NEEDS USER CONFIRMATION]`
-  - Candidates seen: github.com/pranjali | github.com/PRANJALI-SANKPAL
+- GitHub: https://github.com/PRANJALI-SANKPAL `[CONFIRMED 2026-08-03]`
+  - Note: older resume text sometimes showed `github.com/pranjali` as Overleaf hyperlink label — canonical href is the URL above
 - GitLab: gitlab.com/PRANJALI-SANKPAL `[CONFIRM]`
 
 ## Positioning (canonical)
