@@ -22,8 +22,9 @@ Phases only: [`04-plan/12-WEEK-PLAN.md`](04-plan/12-WEEK-PLAN.md) ← **not** fo
 | Need | File |
 |---|---|
 | Locked facts | `02-truth/MASTER-TRUTH.md` |
-| Backend resume | `03-resume/MASTER-RESUME-BACKEND-v1.md` |
-| Full stack resume | `03-resume/MASTER-RESUME-FULLSTACK-v1.md` |
+| Backend resume (apply) | `03-resume/MASTER-RESUME-BACKEND-v1.1.md` |
+| Full stack resume (apply) | `03-resume/MASTER-RESUME-FULLSTACK-v1.1.md` |
+| ATS + human tone audit | `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` |
 | LinkedIn copy | `03-resume/LINKEDIN-COPY-v1.md` |
 | Company list + Top 10 | `11-lists/COMPANY-WATCHLIST.md` |
 | Agent prompts | `06-prompts/` (esp. `22-PLAN-TODAYS-APPLICATIONS.md`) |

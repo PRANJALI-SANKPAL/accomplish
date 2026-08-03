@@ -14,9 +14,10 @@ Updated: 2026-08-03
 - [x] Master Truth **v1.0 LOCKED**
 - [x] Master Resume Backend v1 written
 - [x] Master Resume Full Stack v1 written
-- [x] LinkedIn copy v1 written
+- [x] ATS + human-tone audit written; Backend/FS **v1.1** human-touch shipped
+- [x] LinkedIn copy v1 written (About warmed slightly)
 - [ ] User pastes LinkedIn copy live
-- [ ] User builds Overleaf PDFs from v1 masters
+- [ ] User builds Overleaf PDFs from **v1.1** masters
 - [ ] Trackers cleaned of sample rows
 - [ ] Tier A list expanded to 20 companies
 - [ ] DSA streak started

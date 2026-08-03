@@ -3,8 +3,9 @@
 **Read this file when you want to apply.**  
 The 12-week plan is phases only. **This file is the operating instruction: where, how, what, in what order.**
 
-**Resume to upload everywhere:** Backend PDF from `03-resume/MASTER-RESUME-BACKEND-v1.md`  
-**Only use Full Stack PDF when JD is clearly FE-heavy** (`MASTER-RESUME-FULLSTACK-v1.md`)
+**Resume to upload everywhere:** Backend PDF from `03-resume/MASTER-RESUME-BACKEND-v1.1.md`  
+**Only use Full Stack PDF when JD is clearly FE-heavy** (`MASTER-RESUME-FULLSTACK-v1.1.md`)  
+**Tone/ATS notes:** `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md`
 
 ---
 
@@ -15,8 +16,8 @@ Do these in order. Do not apply until boxes 1–4 are done.
 | # | Action | Exact place | Done? |
 |---|---|---|---|
 | 1 | Paste LinkedIn About + Experience | Copy from `03-resume/LINKEDIN-COPY-v1.md` → https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ | [ ] |
-| 2 | Export Backend PDF | Overleaf → PDF named `Pranjali_Sankpal_Backend.pdf` | [ ] |
-| 3 | Export Full Stack PDF | Overleaf → `Pranjali_Sankpal_FullStack.pdf` | [ ] |
+| 2 | Export Backend PDF (v1.1) | Overleaf from `MASTER-RESUME-BACKEND-v1.1.md` → `Pranjali_Sankpal_Backend.pdf` | [ ] |
+| 3 | Export Full Stack PDF (v1.1) | Overleaf from `MASTER-RESUME-FULLSTACK-v1.1.md` → `Pranjali_Sankpal_FullStack.pdf` | [ ] |
 | 4 | Open tracker | `08-trackers/applications.csv` — delete sample rows if any; keep header | [ ] |
 
 ### Profile setup (same day, 45–60 min)

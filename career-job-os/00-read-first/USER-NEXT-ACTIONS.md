@@ -10,8 +10,10 @@ That file has exact URLs, Day 1–5 clicks, Top 10 companies, and copy-paste mes
 
 1. Paste LinkedIn from `03-resume/LINKEDIN-COPY-v1.md`  
    → https://www.linkedin.com/in/pranjali-sankpal-aa1636232/
-2. Export Overleaf PDFs: Backend + Full Stack
+2. Export Overleaf PDFs from **v1.1** masters: Backend + Full Stack  
+   (`03-resume/MASTER-RESUME-BACKEND-v1.1.md`, `MASTER-RESUME-FULLSTACK-v1.1.md`)
 3. Open `04-plan/START-HERE-APPLY-TODAY.md` and keep it open
+3b. Optional: read `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` (ATS ~84, human tone pass done)
 
 ## Block B — Profiles (same day)
 

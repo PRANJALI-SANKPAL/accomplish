@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-08-03 (ATS + human tone)
+- Audited master resumes: ATS ~84 (good); human tone ~68–72 (dry/generic but honest).
+- Wrote `03-resume/ATS-AND-HUMAN-TONE-AUDIT.md` with scoreboard vs old tailored set.
+- Shipped Backend + Full Stack **v1.1** human-touch (same Master Truth; problem→action→result on ClickHouse; warmer summary; named GitLab MRs on FS).
+- Pointed apply docs at v1.1 PDFs.
+
 ## 2026-08-03 (apply today guide)
 - Added `04-plan/START-HERE-APPLY-TODAY.md` — exact URLs, pre-filled Top 10, Day 1–5 clicks, form answers, referral paste.
 - Pre-filled `COMPANY-WATCHLIST.md` this week’s Top 10 with career URLs.

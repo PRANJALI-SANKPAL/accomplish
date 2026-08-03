@@ -1,5 +1,6 @@
 # Master Resume — BACKEND v1.0
 
+> **Apply with v1.1 instead:** `MASTER-RESUME-BACKEND-v1.1.md` (same facts, better human tone).  
 > Locked to Master Truth v1.0. One page when set in Overleaf.  
 > Overleaf: hyperlink LinkedIn/GitHub/GitLab MR labels to canonical URLs.  
 > Filename suggestion: `Pranjali-Sankpal-Resume-Backend.pdf`

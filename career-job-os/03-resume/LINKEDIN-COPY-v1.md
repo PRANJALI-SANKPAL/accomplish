@@ -11,9 +11,9 @@ Backend / Full Stack Software Engineer | Java • Spring Boot • Python • Rea
 ## About
 
 ```text
-Software Engineer with 3+ years building Java/Spring Boot and Python backends—and React/Angular frontends—for fintech and data platforms.
+I’m a Software Engineer with 3+ years shipping Java/Spring Boot and Python backends—and React/Angular frontends—for fintech and data products.
 
-At Percipere I work on Futuroot (data mining & fintech): backend services, Dockerized workloads, Angular/Highcharts dashboards, and MCP-based internal tooling. I led and completed a MySQL → ClickHouse migration that cut query latency ~60% and infra cost ~40%.
+At Percipere I work on Futuroot (data mining & fintech): backend services, Dockerized workloads, Angular/Highcharts dashboards, and MCP-based internal tooling. I diagnosed slow MySQL analytics queries and led the migration to ClickHouse (~60% lower query latency, ~40% lower infra cost).
 
 Previously at Valiance Solutions I built banking-domain Demand Planning backends (Java/Spring Boot/PostgreSQL/Redis/AWS), event-driven flows with Kafka/RabbitMQ, and led planning/delivery on KM-Intelligence (Django/GraphQL/MongoDB + React) for a Malaysia client.
 
