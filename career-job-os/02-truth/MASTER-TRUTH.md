@@ -10,8 +10,8 @@
 - Phone: +91-8975410518
 - Location: Mumbai, India
 - Open to: Pan-India relocation & remote `[CONFIRM]`
-- LinkedIn: **pick ONE canonical URL and use everywhere** `[NEEDS USER CONFIRMATION]`
-  - Candidates seen: linkedin.com/in/pranjali | linkedin.com/in/pranjalisankpal
+- LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ `[CONFIRMED 2026-08-03]`
+  - Note: older resume text used shortened display labels (`linkedin.com/in/pranjali`, `linkedin.com/in/pranjalisankpal`) as Overleaf hyperlink labels — canonical href is the URL above
 - GitHub: **pick ONE canonical URL** `[NEEDS USER CONFIRMATION]`
   - Candidates seen: github.com/pranjali | github.com/PRANJALI-SANKPAL
 - GitLab: gitlab.com/PRANJALI-SANKPAL `[CONFIRM]`

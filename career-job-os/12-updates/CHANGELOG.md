@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2026-08-03 (later)
+- User confirmed canonical LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ (Overleaf used short hyperlink labels).
+- Started Master Truth lock Q&A one-by-one.
+
 ## 2026-08-03
 - Created Career Job OS structure (research, truth, resume audit, plan, playbooks, prompts, trackers).
 - Audited prior company-specific resumes: NOT OK for shortlisting due to identity fragmentation.

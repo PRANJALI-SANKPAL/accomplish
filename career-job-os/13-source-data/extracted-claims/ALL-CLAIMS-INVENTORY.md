@@ -17,8 +17,9 @@
 | Open to Pan-India relocation & remote | Akamai, GROWW | UNVERIFIED | |
 | Bengaluru / Mumbai | Amazon, Wells, PayPal | UNVERIFIED | |
 | Timezone flexible / 100% remote-ready | Microsoft, Mastercard | UNVERIFIED | |
-| LinkedIn: linkedin.com/in/pranjali | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | pick one |
-| LinkedIn: linkedin.com/in/pranjalisankpal | Akamai, GROWW | CONFLICT | pick one |
+| LinkedIn: linkedin.com/in/pranjali | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | display label only |
+| LinkedIn: linkedin.com/in/pranjalisankpal | Akamai, GROWW | CONFLICT | display label only |
+| LinkedIn canonical: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ | user confirm 2026-08-03 | CONFIRMED | use this href everywhere; Overleaf may show short label |
 | GitHub: github.com/pranjali | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | pick one |
 | GitHub: github.com/PRANJALI-SANKPAL | Akamai, GROWW | CONFLICT | pick one |
 | GitLab: gitlab.com/PRANJALI-SANKPAL | Microsoft, Mastercard, GROWW | UNVERIFIED | |
