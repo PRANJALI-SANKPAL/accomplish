@@ -31,7 +31,9 @@ None for resume lock. Next risk = applying with old conflicting PDFs.
 - [x] Agent contract forbids deleting source data
 
 ## Next human action
-1. Update LinkedIn using `03-resume/LINKEDIN-COPY-v1.md`
-2. Typeset Overleaf PDFs from Backend + Full Stack v1 markdown
-3. Start applications with Backend v1 (default) or Full Stack v1 when JD is FE-heavy
-4. Follow `04-plan/DAILY-OS.md`
+1. Open **`04-plan/START-HERE-APPLY-TODAY.md`** (exact URLs + Day 1–5)
+2. Update LinkedIn using `03-resume/LINKEDIN-COPY-v1.md`
+3. Typeset Overleaf PDFs from Backend + Full Stack v1
+4. Set up Instahyre / Hirist / Wellfound / Naukri
+5. Apply Top 10 (GROWW → Freshworks) with referral-first process
+6. Follow `04-plan/DAILY-OS.md` after Day 1 setup

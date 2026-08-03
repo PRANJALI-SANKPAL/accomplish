@@ -1,7 +1,9 @@
 # 12-week maximum-probability plan
 
 **Not a guarantee.**  
-**Concrete where/how/what:** → **`APPLY-PLAYBOOK.md`** (read that first for applying).
+**This file is phases only.** For where/how/what to click:  
+→ **`START-HERE-APPLY-TODAY.md`** (exact URLs + Day 1–5 Top 10)  
+→ **`APPLY-PLAYBOOK.md`** (full channel + process reference)
 
 ## North star metrics
 
@@ -16,11 +18,11 @@ Already done if Master Truth v1 locked. Still verify:
 1. LinkedIn = `LINKEDIN-COPY-v1.md`
 2. Backend + Full Stack PDFs ready
 3. Trackers clean
-4. Read **`APPLY-PLAYBOOK.md`** fully once
+4. Read **`START-HERE-APPLY-TODAY.md`** and do Day 1 checklist
 
 ## Phase 1 — Week 1–2: Turn on pipeline
 
-Follow APPLY-PLAYBOOK daily schedule:
+Follow **`START-HERE-APPLY-TODAY.md`** Day 1–5 (Top 10 + daily minimum):
 - 5 fit≥70 apps/day (mostly Tier A)
 - 3 referral asks/day
 - 1–2 hr DSA

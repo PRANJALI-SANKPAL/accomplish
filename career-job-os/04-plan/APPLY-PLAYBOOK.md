@@ -3,6 +3,8 @@
 **Based on:** India 2026 hiring research + your Master Truth v1.0 + past rejection patterns.  
 **Not a 100% guarantee.** This is the concrete operating manual the 12-week plan was missing.
 
+**If you need exact clicks for today:** use **`START-HERE-APPLY-TODAY.md`** first (pre-filled Top 10 URLs + Day 1–5). This playbook is the full reference.
+
 ---
 
 ## 0) Your apply identity (never change)

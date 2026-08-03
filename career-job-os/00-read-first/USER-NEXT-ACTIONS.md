@@ -1,26 +1,36 @@
-# USER NEXT ACTIONS
+# USER NEXT ACTIONS — do in this order
 
-## Do these in order (applying starts here)
+**Where / how / what to apply:** open **`04-plan/START-HERE-APPLY-TODAY.md`** first.  
+That file has exact URLs, Day 1–5 clicks, Top 10 companies, and copy-paste messages.  
+`12-WEEK-PLAN.md` is only phases. Do not look there for “what do I click.”
 
-### Packet (if not done)
-1. Paste LinkedIn from `03-resume/LINKEDIN-COPY-v1.md`
-2. Export Overleaf PDFs: Backend v1 + Full Stack v1
-3. Read **`04-plan/APPLY-PLAYBOOK.md`** (where / how / what)
+---
 
-### Profiles (same day)
-4. Instahyre — Backend v1  
-5. Hirist — alerts Java Spring 2–5 YOE  
-6. Wellfound — profile live  
-7. Naukri — upload Backend v1  
+## Block A — Packet (before any apply)
 
-### This week’s apply engine
-8. Fill “This week’s top 10” in `11-lists/COMPANY-WATCHLIST.md`
-9. Each day: follow `04-plan/DAILY-OS.md` (5 apps + 3 referrals + DSA)
-10. Use prompts: `01` fit → `04` referral → `05` log
+1. Paste LinkedIn from `03-resume/LINKEDIN-COPY-v1.md`  
+   → https://www.linkedin.com/in/pranjali-sankpal-aa1636232/
+2. Export Overleaf PDFs: Backend + Full Stack
+3. Open `04-plan/START-HERE-APPLY-TODAY.md` and keep it open
+
+## Block B — Profiles (same day)
+
+4. https://www.instahyre.com/ — Backend PDF  
+5. https://www.hirist.tech/ — alert Java Spring 2–5 YOE  
+6. https://wellfound.com/ — profile live  
+7. https://www.naukri.com/ — upload Backend PDF  
+
+## Block C — Apply this week (exact list)
+
+8. Follow **Day 1–5** in `START-HERE-APPLY-TODAY.md`  
+   Top 10: GROWW → Razorpay → PhonePe → Juspay → CRED → Swiggy → Zomato → Meesho → BrowserStack → Freshworks  
+9. Each role: referral DM → portal apply → log CSV  
+10. Daily minimum after setup: **5 apps + 3 referrals + 1 DSA**  
 11. STAR #1 ClickHouse in `09-templates/STAR-BANK.md`
 
-### Do not
-- Invent Go/fraud/hyperscale resumes
-- Spam Wells Fargo
-- Apply fit &lt;70%
-- Expect 100% guarantee — track weekly response rate
+## Do not
+
+- Invent Go / fraud / hyperscale resumes  
+- Spam Wells Fargo / Akamai networking / Nutanix senior systems  
+- Apply fit &lt;70%  
+- Expect a job guarantee — track response rate weekly  

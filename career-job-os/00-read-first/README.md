@@ -46,7 +46,7 @@ If the task involves user pastes or history: also open `13-source-data/README.md
 | `01-research/` | Hiring research by company type | Targeting / explaining rejections |
 | `02-truth/` | Locked career facts | Any resume/LinkedIn/message work |
 | `03-resume/` | Audit + master resumes + LinkedIn | Resume tasks |
-| `04-plan/` | **APPLY-PLAYBOOK (where/how/what)** + 12-week + daily/weekly | Applying / planning |
+| `04-plan/` | **START-HERE-APPLY-TODAY (exact clicks)** + APPLY-PLAYBOOK + 12-week + daily/weekly | Applying / planning |
 | `05-company-playbooks/` | Per company-type playbooks | Applying to a company |
 | `06-prompts/` | Copy-paste agent prompts | Always for agent work |
 | `07-checklists/` | Gate checklists | Before submit / interview |
@@ -61,11 +61,13 @@ If the task involves user pastes or history: also open `13-source-data/README.md
 
 ## Current status (update this)
 
-- [ ] Master Truth confirmed by user
-- [ ] LinkedIn aligned to Master Truth
-- [ ] Master Resume v1 approved
-- [ ] Application tracker started
+- [x] Master Truth confirmed by user (v1.0 LOCKED)
+- [ ] LinkedIn aligned to Master Truth (paste pending)
+- [x] Master Resume Backend + Full Stack v1 written
+- [ ] Application tracker started (clean sample rows)
 - [ ] DSA baseline started
 - [ ] First 10 referral asks sent (after resume lock)
+
+**Apply entry point:** `04-plan/START-HERE-APPLY-TODAY.md`
 
 See `12-updates/STATUS.md`.

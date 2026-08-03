@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-08-03 (apply today guide)
+- Added `04-plan/START-HERE-APPLY-TODAY.md` — exact URLs, pre-filled Top 10, Day 1–5 clicks, form answers, referral paste.
+- Pre-filled `COMPANY-WATCHLIST.md` this week’s Top 10 with career URLs.
+- Pointed README, USER-NEXT-ACTIONS, 12-WEEK-PLAN, DAILY-OS, CHANNELS, prompt 22 at the start-here file.
+- Clarified: 12-WEEK-PLAN = phases only; START-HERE = what to click.
+
 ## 2026-08-03 (finalize)
 - Master Truth bumped to **v1.0 LOCKED** after user Q&A.
 - Wrote `MASTER-RESUME-BACKEND-v1.md`, `MASTER-RESUME-FULLSTACK-v1.md`, `LINKEDIN-COPY-v1.md`.

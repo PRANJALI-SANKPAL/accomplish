@@ -1,16 +1,17 @@
 # Platforms & channels — detailed
 
-See full process in `04-plan/APPLY-PLAYBOOK.md`.
+**Exact Day 1–5 clicks:** `04-plan/START-HERE-APPLY-TODAY.md`  
+**Full process:** `04-plan/APPLY-PLAYBOOK.md`
 
 ## Required weekly presence
 
-1. **LinkedIn Jobs** — find roles + referral targets  
-   https://www.linkedin.com/jobs/
-2. **Official career pages** — Amazon/Microsoft/Adobe/banks/fintech  
-3. **Instahyre** — https://www.instahyre.com/  
-4. **Hirist** — https://www.hirist.tech/  
-5. **Wellfound** — https://wellfound.com/  
-6. **Naukri** — https://www.naukri.com/ (refresh resume weekly)
+1. **LinkedIn Jobs** — https://www.linkedin.com/jobs/  
+   Find roles + referral targets
+2. **Official career pages** — URLs in `START-HERE-APPLY-TODAY.md` Top 10 + `COMPANY-WATCHLIST.md`
+3. **Instahyre** — https://www.instahyre.com/
+4. **Hirist** — https://www.hirist.tech/
+5. **Wellfound** — https://wellfound.com/jobs
+6. **Naukri** — https://www.naukri.com/ (re-upload same Backend PDF weekly)
 
 ## 24-hour referral rule
 
