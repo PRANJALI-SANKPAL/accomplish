@@ -124,7 +124,8 @@ Do not invent Go/zero-trust framing for KM-Intelligence unless separately confir
 
 ## Years of experience
 
-Use **2.5+** or calculate precisely from Nov 2023. Do not flip between 2.5 and 3+ across docs in the same week; pick one formula and stick to it.
+Use **3+ years** on public resumes `[CONFIRMED 2026-08-03 by user]`.
+Note: calendar FTE from Nov 2023 is ~2y9m; user chose 3+ (includes intern Jul–Nov 2023 + FTE). Keep this wording consistent everywhere — do not flip to 2.5+ across documents.
 
 ## Confirmation checklist for user
 

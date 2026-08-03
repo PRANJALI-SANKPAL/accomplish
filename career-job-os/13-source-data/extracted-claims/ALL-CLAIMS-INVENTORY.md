@@ -32,8 +32,8 @@
 
 | Claim | Sources | Status |
 |---|---|---|
-| 3+ years | Adobe, Akamai, JPMC | CONFLICT |
-| 2.5+ years | Amazon, Microsoft, Nutanix, Wells, PayPal, Mastercard, GROWW | CONFLICT |
+| 3+ years | Adobe, Akamai, JPMC + user 2026-08-03 | CONFIRMED | public wording; includes intern+FTE per user |
+| 2.5+ years | Amazon, Microsoft, Nutanix, Wells, PayPal, Mastercard, GROWW | DENIED for public use | superseded by user choice of 3+ |
 
 ## Employment timeline
 
