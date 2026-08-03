@@ -24,7 +24,7 @@ Primary stack to claim:
 - Languages: Java, Python, SQL (JavaScript/TypeScript secondary)
 - Backend: Spring Boot, Spring Data JPA, FastAPI, REST APIs, microservices
 - Data: MySQL, PostgreSQL, ClickHouse, Redis
-- Messaging: Kafka and/or RabbitMQ `[CONFIRM which used in production]`
+- Messaging: Kafka, RabbitMQ `[CONFIRMED 2026-08-03: both used in production]`
 - Cloud/DevOps: AWS, Docker, CI/CD; Kubernetes only if truly used `[CONFIRM]`
 - Practices: code review, production debugging, Agile
 

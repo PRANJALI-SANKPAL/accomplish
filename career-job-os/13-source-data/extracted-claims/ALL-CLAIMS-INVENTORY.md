@@ -68,7 +68,7 @@
 
 ## Skills mentioned anywhere (preserve all)
 
-Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spring Boot, Spring MVC, Spring Data JPA, Spring Framework, Microservices, Python, FastAPI, Django, Node.js, Express, JavaScript, TypeScript, React, Redux, Angular, SQL, Bash, Go/Golang, Go (learning), C, C++, Maven, Git, REST, GraphQL, WebSockets, MySQL, PostgreSQL, ClickHouse, Redis, MongoDB, DynamoDB, Oracle (learning), Kafka, RabbitMQ, AWS, EC2, RDS, S3, Lambda, SQS, CloudFront, GCP, Azure fundamentals, Docker, Kubernetes, CI/CD, GitHub Actions, GitLab CI, GitOps, OAuth 2.0, JWT, TLS/SSL, HTTP, TCP/UDP, DNS, zero trust, Grafana, Prometheus, JUnit, Mockito, pytest, Jest, React Testing Library, TDD, LangChain, MCP, Claude, GPT, Claude Code, Cursor, Postman, Jira, IntelliJ, VS Code, Linux, ORM/JPA, DSA, System Design
+Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spring Boot, Spring MVC, Spring Data JPA, Spring Framework, Microservices, Python, FastAPI, Django, Node.js, Express, JavaScript, TypeScript, React, Redux, Angular, SQL, Bash, Go/Golang, Go (learning), C, C++, Maven, Git, REST, GraphQL, WebSockets, MySQL, PostgreSQL, ClickHouse, Redis, MongoDB, DynamoDB, Oracle (learning), Kafka `[CONFIRMED production]`, RabbitMQ `[CONFIRMED production]`, AWS, EC2, RDS, S3, Lambda, SQS, CloudFront, GCP, Azure fundamentals, Docker, Kubernetes, CI/CD, GitHub Actions, GitLab CI, GitOps, OAuth 2.0, JWT, TLS/SSL, HTTP, TCP/UDP, DNS, zero trust, Grafana, Prometheus, JUnit, Mockito, pytest, Jest, React Testing Library, TDD, LangChain, MCP, Claude, GPT, Claude Code, Cursor, Postman, Jira, IntelliJ, VS Code, Linux, ORM/JPA, DSA, System Design
 
 ## Projects / systems mentioned anywhere
 
