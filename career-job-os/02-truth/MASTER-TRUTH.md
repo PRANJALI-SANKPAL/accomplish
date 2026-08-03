@@ -84,12 +84,24 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 | Metric | Status |
 |---|---|
-| ClickHouse migration ~60% query latency reduction | ALLOWED if true |
-| ClickHouse migration ~40% infra cost reduction | ALLOWED if true |
-| Mentored 2 juniors | ALLOWED if true |
-| Millions of banking transactions / sub-second queries (Demand Planning) | ALLOWED only with honest scope wording; avoid “billions/month” |
+| ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED as ownership `[2026-08-03]` — % impact still to confirm |
+| ClickHouse migration ~60% query latency reduction | `[NEEDS USER CONFIRMATION]` |
+| ClickHouse migration ~40% infra cost reduction | `[NEEDS USER CONFIRMATION]` |
+| Mentored juniors | CONFIRMED as activity `[2026-08-03]` — count still to confirm |
+| Mentored 2 junior engineers | `[NEEDS USER CONFIRMATION]` |
+| Millions of banking transactions / sub-second queries (Demand Planning) | `[NEEDS USER CONFIRMATION]` — project itself listed as defendable |
 | 99.9% uptime | `[NEEDS USER CONFIRMATION]` — use only if measured |
 | 100M+ daily events / 500K req/day / billions data points / sub-ms / billions txs/month | **FORBIDDEN until proven** |
+
+## Key systems user can defend (confirmed list 2026-08-03)
+
+1. **ClickHouse migration** — led and completed (MySQL → ClickHouse)
+2. **Demand Planning Platform** (Valiance / banking)
+3. **KM-Intelligence** (forensics/intelligence work — exact naming/stack to refine)
+4. **Azolla — Fuel Emission Tracker** — calculations and related work
+5. **Mentored juniors**
+
+Do not invent Go/zero-trust framing for KM-Intelligence unless separately confirmed.
 
 ## Years of experience
 

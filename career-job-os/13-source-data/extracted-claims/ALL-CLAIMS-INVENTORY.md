@@ -119,7 +119,11 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Go/Golang expert or primary | Akamai | DENIED | user: minor learning only |
 | Go (learning) / minor scripts | Microsoft + user 2026-08-03 | CONFIRMED | max claim: Go (learning) |
 | Fraud detection expert / core fraud systems | Mastercard | DENIED | user: tangential only |
-| Fraud tangential (payments/validation nearby) | user 2026-08-03 | CONFIRMED | may mention payment validation carefully; not fraud expertise |
+| ClickHouse migration led & completed | user 2026-08-03 | CONFIRMED | ownership confirmed; % TBD |
+| Demand Planning (defendable) | user 2026-08-03 | CONFIRMED | project on key list |
+| KM-Intelligence (defendable) | user 2026-08-03 | CONFIRMED | naming; not Go-expert rewrite |
+| Azolla Fuel Emission Tracker (calculations+) | user 2026-08-03 | CONFIRMED | project on key list |
+| Mentored juniors (activity) | user 2026-08-03 | CONFIRMED | count TBD |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)
