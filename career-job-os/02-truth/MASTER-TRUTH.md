@@ -44,7 +44,7 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 - Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`
 
 ### Valiance Solutions — Delhi NCR | Software Developer / Software Engineer
-- Dates: Nov 2023 – June 2025 *(prefer June to avoid overlap; confirm)* `[NEEDS USER CONFIRMATION]`
+- Dates: Nov 2023 – June 2025 `[CONFIRMED 2026-08-03]`
 - Themes allowed if true:
   - Backend for Demand Planning Platform (banking/fintech): Java, Spring Boot, PostgreSQL, Redis, AWS
   - REST APIs across fintech/logistics platforms
