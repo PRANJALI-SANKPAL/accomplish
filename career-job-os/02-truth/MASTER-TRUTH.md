@@ -87,7 +87,11 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 ## Open source
 
-- GitLab contributor since Mar 2025 — Rails codebase contributions; include **links to merged MRs** `[NEEDS USER CONFIRMATION: MR links]`
+- GitLab contributor since Mar 2025 — Rails codebase contributions; include **links to merged MRs** below
+- Confirmed merged MRs `[2026-08-03]`:
+  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840
+  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260
+  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707
 - Do not claim Go contributions unless true for specific MRs
 
 ## Metrics whitelist (use only confirmed)
