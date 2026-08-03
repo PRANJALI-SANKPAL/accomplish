@@ -38,7 +38,7 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 - Product: Futuroot (data mining/analytics / member money movement — clarify primary product name) `[NEEDS USER CONFIRMATION: primary product narrative]`
 - Allowed true themes (use only if accurate):
   - Backend services in Java (Spring Boot) and/or Python (FastAPI)
-  - ClickHouse migration leadership/design review from MySQL (prefer MySQL unless user confirms PostgreSQL)
+  - ClickHouse migration leadership/design review from MySQL `[CONFIRMED 2026-08-03: MySQL → ClickHouse]`
   - REST APIs, Docker, code review, production debugging
   - Optional if true: Angular dashboards, MCP/AI chatbot tooling (secondary, not headline identity)
 - Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`

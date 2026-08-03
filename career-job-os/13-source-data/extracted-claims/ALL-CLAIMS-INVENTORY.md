@@ -93,6 +93,8 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 |---|---|---|
 | ClickHouse ~60% latency / ~40% cost | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | UNVERIFIED |
 | ClickHouse 65% latency / 40% cost | Akamai | CONFLICT vs 60% |
+| ClickHouse source = MySQL | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC + user 2026-08-03 | CONFIRMED | use MySQL → ClickHouse |
+| ClickHouse source = PostgreSQL | Akamai | DENIED | do not use |
 | Redis analytics latency -55% | Akamai | UNVERIFIED |
 | Redis query perf -60% (Valiance) | Akamai | UNVERIFIED |
 | API perf ~35% improvement | Microsoft | UNVERIFIED |
