@@ -28,6 +28,8 @@ Primary stack to claim:
 - Cloud/DevOps: AWS, Docker, CI/CD; Kubernetes only if truly used `[CONFIRM]`
 - Practices: code review, production debugging, Agile
 
+**Confirmed migration:** MySQL → ClickHouse `[CONFIRMED 2026-08-03]` — do not write PostgreSQL → ClickHouse.
+
 Do **not** claim as primary identity: Go expert, zero trust specialist, fraud detection expert, AI infra engineer, Oracle expert, DNS/TCP protocol engineer.
 
 ## Experience (canonical timeline)
