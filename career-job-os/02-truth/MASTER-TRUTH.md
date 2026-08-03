@@ -84,9 +84,9 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 | Metric | Status |
 |---|---|
-| ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED as ownership `[2026-08-03]` — % impact still to confirm |
-| ClickHouse migration ~60% query latency reduction | `[NEEDS USER CONFIRMATION]` |
-| ClickHouse migration ~40% infra cost reduction | `[NEEDS USER CONFIRMATION]` |
+| ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED `[2026-08-03]` |
+| ClickHouse migration ~60% query latency reduction | CONFIRMED `[2026-08-03]` |
+| ClickHouse migration ~40% infra cost reduction | CONFIRMED `[2026-08-03]` |
 | Mentored juniors | CONFIRMED as activity `[2026-08-03]` — count still to confirm |
 | Mentored 2 junior engineers | `[NEEDS USER CONFIRMATION]` |
 | Millions of banking transactions / sub-second queries (Demand Planning) | `[NEEDS USER CONFIRMATION]` — project itself listed as defendable |
