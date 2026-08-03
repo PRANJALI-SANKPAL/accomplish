@@ -76,7 +76,7 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
   - Event-driven work with Kafka/RabbitMQ `[CONFIRMED 2026-08-03: both]`
   - Mentored junior engineers at Valiance and Percipere `[CONFIRMED — do not quantify]`
   - Production incident debugging, high availability goals
-- Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker / Azolla (Django/Docker/AWS — calculations+), KM-Intelligence / forensics-intelligence work — do not rewrite as Go zero-trust national security platform unless that exact framing is confirmed.
+- Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker / Azolla (Django/Docker/AWS — calculations+), **KM-Intelligence** (Malaysia client intelligent system; React/Django/GraphQL/MongoDB; started FE+BE planning; led frontend with juniors) — never rewrite as Go zero-trust national security platform.
 
 ### KJSS Cosmos — Mumbai | Frontend Developer Intern
 - Dates: July 2023 – Nov 2023
