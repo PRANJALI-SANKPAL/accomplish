@@ -116,6 +116,8 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | 10+ REST APIs | GROWW | UNVERIFIED |
 | 3 production platforms | many | UNVERIFIED |
 | Kubernetes production use | Microsoft, Mastercard, GROWW, Akamai, etc. + user 2026-08-03 | CONFIRMED | may list Kubernetes |
+| Go/Golang expert or primary | Akamai | DENIED | user: minor learning only |
+| Go (learning) / minor scripts | Microsoft + user 2026-08-03 | CONFIRMED | max claim: Go (learning) |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)
