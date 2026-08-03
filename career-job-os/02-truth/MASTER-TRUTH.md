@@ -1,8 +1,9 @@
-# MASTER TRUTH v0.1 — LOCKED UNTIL USER CONFIRMS
+# MASTER TRUTH v1.0 — LOCKED
 
-> Status: **v0.9 — nearly locked from user Q&A (2026-08-03)**  
-> Rule: Agents may not exceed these facts. Mark gaps `[NEEDS USER CONFIRMATION]`.  
-> Remaining optional: Azolla one-liner depth; Smart Policing confirm/deny; FastAPI vs Django emphasis at Valiance.
+> Status: **LOCKED v1.0 (2026-08-03)** after user Q&A + finalize.  
+> Public resumes / LinkedIn must not exceed these facts.  
+> Source history remains in `13-source-data/` (never delete).  
+> Optional later (non-blocking): Azolla depth; Smart Policing keep/drop; Member Money Movement naming.
 
 ## Identity
 
@@ -10,167 +11,67 @@
 - Email: sankpranjali@gmail.com
 - Phone: +91-8975410518
 - Location: Mumbai, India
-- Open to: Pan-India relocation & remote `[CONFIRMED 2026-08-03]`
-- Remote interest: exploring remote-from-India roles with US / UK / Europe companies `[CONFIRMED 2026-08-03]`
-- LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/ `[CONFIRMED 2026-08-03]`
-  - Note: older resume text used shortened display labels (`linkedin.com/in/pranjali`, `linkedin.com/in/pranjalisankpal`) as Overleaf hyperlink labels — canonical href is the URL above
-- GitHub: https://github.com/PRANJALI-SANKPAL `[CONFIRMED 2026-08-03]`
-  - Note: older resume text sometimes showed `github.com/pranjali` as Overleaf hyperlink label — canonical href is the URL above
-- GitLab: https://gitlab.com/PRANJALI-SANKPAL `[CONFIRMED profile path from MRs 2026-08-03]`
+- Open to: Pan-India relocation & remote
+- Remote interest: remote-from-India roles with US / UK / Europe companies
+- LinkedIn: https://www.linkedin.com/in/pranjali-sankpal-aa1636232/
+- GitHub: https://github.com/PRANJALI-SANKPAL
+- GitLab: https://gitlab.com/PRANJALI-SANKPAL
 
 ## Open source (confirmed MRs)
 
 GitLab contributor (Mar 2025 – Present). Merged MRs in `gitlab-org/gitlab`:
 
-1. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840 — Add "Snooze until next week" to To-Do List (merged)
-2. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260 — Fix: Allow Geo sync requests even if Git over HTTP is disabled (merged)
-3. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707 — Fix: Make custom status name index case-insensitive (merged)
+1. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840 — Add "Snooze until next week" to To-Do List
+2. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260 — Fix: Allow Geo sync requests even if Git over HTTP is disabled
+3. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707 — Fix: Make custom status name index case-insensitive
 
-Do **not** claim Go contributions for these unless an MR is actually Go — these appear Rails/Ruby/backend platform work.
+Do not claim these as Go contributions.
 
-## Positioning (canonical)
+## Positioning
 
-**Primary master:** Backend Software Engineer with 3+ years building Java/Spring Boot and Python services for fintech and analytics platforms. Strongest proof: production data/platform work including a MySQL→ClickHouse migration with ~60% query latency reduction and ~40% infra cost reduction.
+**Primary master:** Backend Software Engineer (Java / Spring Boot / Python), fintech + data platforms.  
+**Also maintain:** Full Stack emphasis variant (same facts) — React/Angular/Highcharts.  
+YOE public wording: **3+ years**.
 
-**Also maintain (same facts, different emphasis):** Full Stack variant — Java/Spring + React/Angular/Highcharts — for full-stack JDs `[CONFIRMED strategy 2026-08-03: option C]`.
+## Stack (public)
 
-Do not create conflicting facts between the two variants — only emphasis/order changes.
+- Languages: Java, Python, SQL, JavaScript/TypeScript; Go (learning) at most
+- Backend: Spring Boot, Spring Data JPA, Python services, REST APIs, microservices, Django (KM-Intelligence)
+- Frontend (fullstack variant): React, Redux, Angular, Highcharts
+- Data: MySQL, PostgreSQL, ClickHouse, Redis, MongoDB (KM-Intelligence), GraphQL (KM-Intelligence)
+- Messaging: Kafka, RabbitMQ
+- Cloud/DevOps: AWS, Docker, Kubernetes, CI/CD
+- Other secondary when JD-fit: MCP, agentic AI tooling (Percipere)
 
-Primary stack to claim:
-- Languages: Java, Python, SQL (JavaScript/TypeScript secondary)
-- Backend: Spring Boot, Spring Data JPA, FastAPI, REST APIs, microservices
-- Data: MySQL, PostgreSQL, ClickHouse, Redis
-- Messaging: Kafka, RabbitMQ `[CONFIRMED 2026-08-03: both used in production]`
-- Cloud/DevOps: AWS, Docker, Kubernetes, CI/CD `[CONFIRMED 2026-08-03: Kubernetes used in production]`
-- Practices: code review, production debugging, Agile
+**Confirmed migration:** MySQL → ClickHouse; led & completed; ~60% query latency; ~40% infra cost.
 
-**Confirmed migration:** MySQL → ClickHouse with ~60% query latency reduction and ~40% infra cost reduction `[CONFIRMED 2026-08-03]`.
+## Hard forbids (public)
 
-Do **not** claim as primary identity: Go expert, zero trust specialist, fraud detection expert, AI infra engineer, Oracle expert, DNS/TCP protocol engineer.
+Go expert; zero trust specialist; fraud detection expert; AI infra / hyperscale; Oracle expert; DNS/TCP specialist; billions/sub-ms/100M+ events claims; quantifying mentee headcount globally; conflicting dates/URLs.
 
-**Go status:** Minor / learning / small scripts — not primary `[CONFIRMED 2026-08-03]`. May list as `Go (learning)` at most. Never “Go expert” or primary language.
+## Experience
 
-**Fraud status:** Tangential only — payments/validation nearby, not fraud systems `[CONFIRMED 2026-08-03]`. Never claim fraud detection expert / Decision Management / fraud prevention platform ownership.
+### Percipere — Mumbai | Software Engineer (Consultant) | Jul 2025 – Present
+Futuroot: data mining + fintech. Java/Spring Boot, Python, MySQL, ClickHouse, Docker, MCP/agentic AI tooling, Angular/Highcharts dashboards. ClickHouse migration ownership.
 
-## Experience (canonical timeline)
+### Valiance Solutions — Delhi NCR | Software Engineer | Nov 2023 – June 2025
+Demand Planning (banking/fintech) Java/Spring Boot/PostgreSQL/Redis/AWS; Kafka/RabbitMQ; KM-Intelligence (Malaysia client) Django/GraphQL/MongoDB/React — backend-lead vs frontend-lead emphasis by JD; Azolla calculations work; mentored juniors (no headcount).
 
-### Percipere — Mumbai | Software Engineer (Consultant)
-- Dates: July 2025 – Present
-- Official title: Software Engineer (Consultant) `[CONFIRMED 2026-08-03]`
-- Product: **Futuroot** — data mining and fintech product `[CONFIRMED 2026-08-03]`
-- Main work (user summary): data mining + fintech features including MCP chatbot, agentic AI, Docker-based script runs, Angular dashboards (Highcharts), plus ClickHouse migration ownership
-- Main stack used (user): Java, Spring Boot, Docker, Python, MySQL, ClickHouse, MCP, Agentic AI, Angular, Highcharts (+ more)
-- Allowed themes for public resume:
-  - Backend services in Java (Spring Boot) and Python
-  - ClickHouse migration (MySQL → ClickHouse; ~60% latency / ~40% cost)
-  - REST APIs, Docker, code review, production debugging
-  - Angular dashboards / Highcharts (frontend at Percipere) `[CONFIRMED]`
-  - MCP chatbot / agentic AI tooling as **secondary** bullets when JD-relevant — not a whole alternate identity rewrite
-- Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`
-
-### Valiance Solutions — Delhi NCR | Software Engineer
-- Dates: Nov 2023 – June 2025 `[CONFIRMED 2026-08-03]`
-- Official title: Software Engineer `[CONFIRMED 2026-08-03]`
-- Themes allowed if true:
-  - Backend for Demand Planning Platform (banking/fintech): Java, Spring Boot, PostgreSQL, Redis, AWS
-  - REST APIs across fintech/logistics platforms
-  - Event-driven work with Kafka/RabbitMQ `[CONFIRMED 2026-08-03: both]`
-  - Mentored junior engineers at Valiance and Percipere `[CONFIRMED — do not quantify]`
-  - Production incident debugging, high availability goals
-- Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker / Azolla (Django/Docker/AWS — calculations+), **KM-Intelligence** (Malaysia client intelligent system; React/Django/GraphQL/MongoDB; started FE+BE planning; led frontend with juniors) — never rewrite as Go zero-trust national security platform.
-
-### KJSS Cosmos — Mumbai | Frontend Developer Intern
-- Dates: July 2023 – Nov 2023
-- Role-based procurement platform in React/Redux; permission levels; REST integration
+### KJSS Cosmos — Mumbai | Frontend Developer Intern | Jul 2023 – Nov 2023
+React/Redux procurement platform; role-based permissions; REST integration.
 
 ## Education
 
-- Sandip University, Nashik — B.Tech Aerospace Engineering — CGPA 8.57/10 — Aug 2018 – Sept 2022
-- Coursework to list only if taken: DSA, OS, C/C++, DBMS `[CONFIRM]`
+Sandip University, Nashik — B.Tech Aerospace Engineering — CGPA 8.57/10 — Aug 2018 – Sept 2022
 
-## Certifications (allowed)
+## Certifications
 
 - Google Cloud Professional Cloud Developer
 - Google Cloud Professional Cloud Architect
-- AWS SAA-C03: In Progress (optional; don’t over-weight)
-- Full Stack Java Developer – Simplilearn (optional; low prestige — can omit on FAANG/GCC resumes)
+- AWS SAA-C03: In Progress (optional)
 
-## Open source
+## Dual resume outputs
 
-- GitLab contributor since Mar 2025 — Rails codebase contributions; include **links to merged MRs** below
-- Confirmed merged MRs `[2026-08-03]`:
-  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/185840
-  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/190260
-  - https://gitlab.com/gitlab-org/gitlab/-/merge_requests/191707
-- Do not claim Go contributions unless true for specific MRs
-
-## Metrics whitelist (use only confirmed)
-
-| Metric | Status |
-|---|---|
-| ClickHouse migration led and completed (MySQL → ClickHouse) | CONFIRMED `[2026-08-03]` |
-| ClickHouse migration ~60% query latency reduction | CONFIRMED `[2026-08-03]` |
-| ClickHouse migration ~40% infra cost reduction | CONFIRMED `[2026-08-03]` |
-| Mentored juniors | CONFIRMED at Valiance and Percipere `[2026-08-03]` — **do not quantify** on resume |
-| Mentored 2 junior engineers | DENIED for public use — user chose not to quantify |
-| Frontend strength (self-assessed best-at) | NOTED `[2026-08-03]` — stack/depth to confirm before headline |
-| Millions of banking transactions / sub-second queries (Demand Planning) | `[NEEDS USER CONFIRMATION]` — project itself listed as defendable |
-| 99.9% uptime | `[NEEDS USER CONFIRMATION]` — use only if measured |
-| 100M+ daily events / 500K req/day / billions data points / sub-ms / billions txs/month | **FORBIDDEN until proven** |
-
-## Key systems user can defend (confirmed list 2026-08-03)
-
-1. **ClickHouse migration** — led and completed (MySQL → ClickHouse; ~60% latency / ~40% cost)
-2. **Demand Planning Platform** (Valiance / banking)
-3. **KM-Intelligence** (Valiance, Malaysia client) — intelligent people/info system; user started FE+BE planning; GraphQL + MongoDB unstructured data; React frontend led with 2 juniors; Django backend; last project at Valiance `[CONFIRMED 2026-08-03]`
-4. **Azolla — Fuel Emission Tracker** — calculations and related work
-5. **Mentored juniors** (both companies; no generic headcount on resume)
-
-**KM-Intelligence public wording rules:**
-- Allowed stacks: React, Django, GraphQL, MongoDB, FE/BE planning
-- Emphasis by JD `[CONFIRMED 2026-08-03]`:
-  - **Backend-heavy JD:** frame as main backend lead — backend planning + Django/GraphQL/MongoDB implementation ownership
-  - **Frontend-heavy / Full Stack JD:** frame as frontend lead — React delivery (juniors only if needed for that variant; no global mentoring headcount)
-- Forbidden: Go expert, zero trust architecture, DNS/TCP protocol optimization, claiming post-exit outcomes
-- Exact product display name: **KM-Intelligence** unless user corrects spelling/branding
-- Do not claim an official corporate title “Backend Team Lead” unless offer letter says so — use ownership verbs: led / owned / drove
-
-Do not invent Go/zero-trust framing for KM-Intelligence unless separately confirmed.
-
-## Years of experience
-
-Use **3+ years** on public resumes `[CONFIRMED 2026-08-03 by user]`.
-Note: calendar FTE from Nov 2023 is ~2y9m; user chose 3+ (includes intern Jul–Nov 2023 + FTE). Keep this wording consistent everywhere — do not flip to 2.5+ across documents.
-
-## Confirmation checklist for user
-
-Completed Q&A 2026-08-03:
-1. Canonical LinkedIn URL — DONE
-2. Canonical GitHub URL — DONE
-3. Percipere official title — DONE
-4. Valiance end date — DONE
-5. ClickHouse source DB — DONE
-6. Messaging systems — DONE
-7. Kubernetes production — DONE
-8. Go production depth — DONE
-9. Fraud detection depth — DONE
-10. Defendable systems + ClickHouse metrics — DONE
-11. GitLab MR links — DONE
-12. Percipere/Futuroot narrative — DONE
-13. Valiance title — DONE
-14. YOE wording 3+ — DONE
-15. Location/remote prefs — DONE
-16. Backend + Full Stack dual masters — DONE
-17. KM-Intelligence narrative + BE/FE emphasis — DONE
-
-Optional later (not blocking lock):
-- Azolla deeper one-liner
-- Smart Policing keep/drop
-- Member Money Movement keep/drop as named system
-
-## Next agent step after user says “lock / finalize”
-1. Bump Master Truth to v1.0
-2. Write `03-resume/MASTER-RESUME-BACKEND-v1.md`
-3. Write `03-resume/MASTER-RESUME-FULLSTACK-v1.md`
-4. Write LinkedIn copy via prompt 03
-5. Update STATUS.md
+- `03-resume/MASTER-RESUME-BACKEND-v1.md`
+- `03-resume/MASTER-RESUME-FULLSTACK-v1.md`
+- `03-resume/LINKEDIN-COPY-v1.md`

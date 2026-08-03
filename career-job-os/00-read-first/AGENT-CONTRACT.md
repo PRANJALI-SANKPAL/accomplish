@@ -27,7 +27,7 @@ Refuse identity rewrite. Offer:
 
 ## Default persona to write as
 
-**Backend Software Engineer (Java / Spring Boot, Python / FastAPI)** with fintech/analytics production experience, ClickHouse migration ownership, Kafka/Redis/AWS/Docker.
+**Backend Software Engineer (Java / Spring Boot, Python)** with fintech/analytics production experience, ClickHouse migration ownership, Kafka/Redis/AWS/Docker/Kubernetes — plus Full Stack emphasis variant when JD is frontend-heavy (React/Angular), per Master Truth v1.0.
 
 ## Output hygiene for low context
 

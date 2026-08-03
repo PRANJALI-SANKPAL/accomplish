@@ -1,14 +1,21 @@
 # USER NEXT ACTIONS (do in order)
 
-## Today
-1. Answer every confirmation item in `02-truth/MASTER-TRUTH.md` (YES/NO/EDIT).
-2. Optionally walk `13-source-data/extracted-claims/ALL-CLAIMS-INVENTORY.md` and mark CONFIRMED/DENIED — **do not delete rows**.
-3. Pick ONE LinkedIn URL and ONE GitHub URL; update all profiles to match.
-4. Keep local PDF copies if you have them; repo already has verbatim text of all 10 versions in `13-source-data/resumes-original/`.
-5. Tell an agent: run prompt `13-UPDATE-MASTER-TRUTH` with your answers.
-6. Tell an agent: run prompt `03-ALIGN-LINKEDIN`, then update LinkedIn manually.
-7. Finalize Master Resume from draft; pass `07-checklists/RESUME-GATE.md`.
-8. Any new resume/JD/rejection note you paste later → agent must use prompt `21-INGEST-SOURCE-DATA-NO-LOSS` first.
+## Today (post-finalize)
+1. Paste LinkedIn from `03-resume/LINKEDIN-COPY-v1.md`
+2. Build Overleaf PDFs from:
+   - `03-resume/MASTER-RESUME-BACKEND-v1.md` (default applications)
+   - `03-resume/MASTER-RESUME-FULLSTACK-v1.md` (FE-heavy / full-stack JDs)
+3. Hyperlink Overleaf labels to:
+   - https://www.linkedin.com/in/pranjali-sankpal-aa1636232/
+   - https://github.com/PRANJALI-SANKPAL
+4. Do **not** send archived/conflicting company PDFs from before v1
+5. Any new paste → prompt `21-INGEST-SOURCE-DATA-NO-LOSS` first
+6. Start daily OS + fit≥70 applications
+
+## Do not
+- Ask ChatGPT to invent Go/fraud/hyperscale identities again
+- Re-apply Wells Fargo with a new fake stack story
+- Expect 100% guarantee; measure weekly response rate instead
 
 ## This week
 7. Expand `11-lists/COMPANY-WATCHLIST.md` to 20+ Tier A/B companies.
