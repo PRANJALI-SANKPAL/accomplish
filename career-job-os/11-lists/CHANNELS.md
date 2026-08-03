@@ -1,12 +1,24 @@
-# Platforms & channels
+# Platforms & channels — detailed
 
-1. Company career pages (primary for Tier B/C brands)
-2. LinkedIn Jobs + referral outreach
-3. Instahyre (startup/product inbound)
-4. Wellfound (startups)
-5. Naukri (volume + recruiter inbound; refresh weekly with SAME resume)
-6. Hirist (product roles)
-7. Employee referral forms (always with Job ID)
+See full process in `04-plan/APPLY-PLAYBOOK.md`.
+
+## Required weekly presence
+
+1. **LinkedIn Jobs** — find roles + referral targets  
+   https://www.linkedin.com/jobs/
+2. **Official career pages** — Amazon/Microsoft/Adobe/banks/fintech  
+3. **Instahyre** — https://www.instahyre.com/  
+4. **Hirist** — https://www.hirist.tech/  
+5. **Wellfound** — https://wellfound.com/  
+6. **Naukri** — https://www.naukri.com/ (refresh resume weekly)
 
 ## 24-hour referral rule
-Find role → 24h to ask referral → else apply direct → log.
+
+Find role → ask referral within 24h → apply portal same day → log.
+
+## Saved search examples
+
+```text
+Java Spring Boot Backend 2-4 years Mumbai OR Bengaluru OR Remote
+Software Engineer Java Microservices Kafka
+```

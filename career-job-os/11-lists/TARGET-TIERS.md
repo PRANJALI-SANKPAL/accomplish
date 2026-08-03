@@ -1,22 +1,18 @@
-# Target tiers
+# Target tiers (summary)
 
-## Tier A — prioritize (fit + upside)
-Product fintech / mid product companies with Java/Python backend 2–4 YOE reqs  
-Examples to customize: GROWW (honest packet), Razorpay/PhonePe/Juspay-type roles if fit, strong Series B–D startups on Wellfound/Instahyre
+Full apply instructions: **`04-plan/APPLY-PLAYBOOK.md`**
 
-## Tier B — strong parallel path
-Bank/payments GCC Java backend with honest fintech story  
-JPMC / PayPal / similar **when JD matches**  
-Adobe/Amazon/Microsoft **SDE1/L4/early SDE2 only** with clean packet + referral
+| Tier | What | Weekly share |
+|---|---|---|
+| **A** | Product fintech / mid product Java backend (GROWW, Razorpay, PhonePe, Swiggy, Wellfound/Instahyre startups…) | ~60%+ of apps |
+| **B** | Amazon L4 / Microsoft / Adobe / JPMC / PayPal / GCC Java — referral + portal | ~25% |
+| **C** | Stretch (Mastercard honest-only, special teams) | ~10% |
+| **D** | Skip: Nutanix systems senior, Akamai networking specialist, AI-infra cosplay, Wells spam | 0% |
 
-## Tier C — selective stretch
-Specific Microsoft/Amazon teams with exact stack match + strong referral  
-Mastercard only with honest transaction backend story (no fraud invention)
+## Level keywords to click
 
-## Tier D — deprioritize / skip physics
-- Nutanix SMTS / OS/storage heavy senior reqs
-- Akamai networking/edge specialist reqs without real systems background
-- Any “Staff/Principal/AI Infra” narrative roles
+- Software Engineer, SDE, SDE-1, Backend Engineer, Java Developer (2–4 / 2–5 YOE)
 
-## Update rule
-After each week, move companies based on response data — not vibes.
+## Level keywords to skip
+
+- Senior (unless JD says 2–4), Staff, Principal, SMTS, 8+ years, Edge Networking Specialist
