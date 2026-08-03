@@ -128,7 +128,8 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Percipere Angular dashboards / Highcharts | user 2026-08-03 | CONFIRMED | frontend work at Percipere |
 | Percipere Docker script runs | user 2026-08-03 | CONFIRMED | |
 | Demand Planning (defendable) | user 2026-08-03 | CONFIRMED | project on key list |
-| KM-Intelligence (defendable) | user 2026-08-03 | CONFIRMED | Malaysia client; React/Django/GraphQL/MongoDB; FE lead with 2 juniors; planning FE+BE |
+| KM-Intelligence emphasis: backend lead vs FE lead by JD | user 2026-08-03 | CONFIRMED | same facts; variant emphasis only |
+| KM-Intelligence junior count on resume | user redirected 2026-08-03 | PARTIAL | use only on FE-heavy variant if needed; no global mentoring number |
 | KM-Tech Forensics Go zero-trust rewrite | Akamai | DENIED | conflicts with user KM-Intelligence narrative |
 | Azolla Fuel Emission Tracker (calculations+) | user 2026-08-03 | CONFIRMED | project on key list |
 | Mentored juniors (activity) | user 2026-08-03 | CONFIRMED | both companies; do not quantify on resume |

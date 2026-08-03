@@ -126,9 +126,13 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 5. **Mentored juniors** (both companies; no generic headcount on resume)
 
 **KM-Intelligence public wording rules:**
-- Allowed: React, Django, GraphQL, MongoDB, planning FE/BE, led frontend with juniors, Malaysia client intelligent system
+- Allowed stacks: React, Django, GraphQL, MongoDB, FE/BE planning
+- Emphasis by JD `[CONFIRMED 2026-08-03]`:
+  - **Backend-heavy JD:** frame as main backend lead — backend planning + Django/GraphQL/MongoDB implementation ownership
+  - **Frontend-heavy / Full Stack JD:** frame as frontend lead — React delivery (juniors only if needed for that variant; no global mentoring headcount)
 - Forbidden: Go expert, zero trust architecture, DNS/TCP protocol optimization, claiming post-exit outcomes
-- Exact product display name: prefer **KM-Intelligence** unless user corrects spelling/branding
+- Exact product display name: **KM-Intelligence** unless user corrects spelling/branding
+- Do not claim an official corporate title “Backend Team Lead” unless offer letter says so — use ownership verbs: led / owned / drove
 
 Do not invent Go/zero-trust framing for KM-Intelligence unless separately confirmed.
 
