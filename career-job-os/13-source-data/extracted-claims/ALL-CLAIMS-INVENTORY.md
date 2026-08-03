@@ -118,6 +118,8 @@ Java, Java 8+, Core Java, Collections, Multithreading, OOP, Design Patterns, Spr
 | Kubernetes production use | Microsoft, Mastercard, GROWW, Akamai, etc. + user 2026-08-03 | CONFIRMED | may list Kubernetes |
 | Go/Golang expert or primary | Akamai | DENIED | user: minor learning only |
 | Go (learning) / minor scripts | Microsoft + user 2026-08-03 | CONFIRMED | max claim: Go (learning) |
+| Fraud detection expert / core fraud systems | Mastercard | DENIED | user: tangential only |
+| Fraud tangential (payments/validation nearby) | user 2026-08-03 | CONFIRMED | may mention payment validation carefully; not fraud expertise |
 | 5+ heterogeneous data sources | GROWW | UNVERIFIED |
 
 ## Primary-identity claims by resume (for conflict tracking)

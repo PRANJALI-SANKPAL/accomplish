@@ -34,6 +34,8 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
 
 **Go status:** Minor / learning / small scripts — not primary `[CONFIRMED 2026-08-03]`. May list as `Go (learning)` at most. Never “Go expert” or primary language.
 
+**Fraud status:** Tangential only — payments/validation nearby, not fraud systems `[CONFIRMED 2026-08-03]`. Never claim fraud detection expert / Decision Management / fraud prevention platform ownership.
+
 ## Experience (canonical timeline)
 
 ### Percipere — Mumbai | Software Engineer (Consultant)
