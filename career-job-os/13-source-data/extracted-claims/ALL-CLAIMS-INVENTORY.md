@@ -44,8 +44,8 @@
 | Title: Software Engineer (Consultant) | Akamai, Microsoft, Mastercard, GROWW + user 2026-08-03 | CONFIRMED | use everywhere |
 | Valiance Nov 2023 – June 2025 | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC + user 2026-08-03 | CONFIRMED | use everywhere |
 | Valiance Nov 2023 – Jul 2025 | Akamai, Microsoft, Mastercard, GROWW | DENIED | overlaps Percipere; do not use |
-| Title Valiance: Software Developer | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | CONFLICT | |
-| Title Valiance: Software Engineer | Akamai, Microsoft, Mastercard, GROWW | CONFLICT | |
+| Title Valiance: Software Developer | Adobe, Amazon, Nutanix, Wells, PayPal, JPMC | DENIED | not official |
+| Title Valiance: Software Engineer | Akamai, Microsoft, Mastercard, GROWW + user 2026-08-03 | CONFIRMED | use everywhere |
 | KJSS Jul 2023 – Nov 2023 Frontend Intern | most | UNVERIFIED | |
 | KJSS title Software Engineer Intern | Akamai | CONFLICT | |
 

@@ -62,15 +62,16 @@ Do **not** claim as primary identity: Go expert, zero trust specialist, fraud de
   - MCP chatbot / agentic AI tooling as **secondary** bullets when JD-relevant — not a whole alternate identity rewrite
 - Title to standardize: `Software Engineer (Consultant)` `[CONFIRMED]`
 
-### Valiance Solutions — Delhi NCR | Software Developer / Software Engineer
+### Valiance Solutions — Delhi NCR | Software Engineer
 - Dates: Nov 2023 – June 2025 `[CONFIRMED 2026-08-03]`
+- Official title: Software Engineer `[CONFIRMED 2026-08-03]`
 - Themes allowed if true:
   - Backend for Demand Planning Platform (banking/fintech): Java, Spring Boot, PostgreSQL, Redis, AWS
   - REST APIs across fintech/logistics platforms
   - Event-driven work with Kafka/RabbitMQ `[CONFIRMED 2026-08-03: both]`
   - Mentored junior engineers at Valiance and Percipere `[CONFIRMED — do not quantify]`
   - Production incident debugging, high availability goals
-- Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker (Django/Docker/AWS), forensics/MongoDB work — do not rewrite as Go zero-trust national security platform unless that exact work is true and documentable.
+- Optional secondary projects if true: Smart Policing (FastAPI/Node/WebSockets), Fuel Emissions Tracker / Azolla (Django/Docker/AWS — calculations+), KM-Intelligence / forensics-intelligence work — do not rewrite as Go zero-trust national security platform unless that exact framing is confirmed.
 
 ### KJSS Cosmos — Mumbai | Frontend Developer Intern
 - Dates: July 2023 – Nov 2023
