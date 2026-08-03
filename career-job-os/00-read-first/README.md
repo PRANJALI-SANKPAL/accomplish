@@ -45,15 +45,15 @@ If the task involves user pastes or history: also open `13-source-data/README.md
 | `00-read-first/` | Agent contract, navigation | Every session |
 | `01-research/` | Hiring research by company type | Targeting / explaining rejections |
 | `02-truth/` | Locked career facts | Any resume/LinkedIn/message work |
-| `03-resume/` | Audit + master resume + variant rules | Resume tasks |
-| `04-plan/` | 12-week plan + daily/weekly OS | Planning / status |
+| `03-resume/` | Audit + master resumes + LinkedIn | Resume tasks |
+| `04-plan/` | **APPLY-PLAYBOOK (where/how/what)** + 12-week + daily/weekly | Applying / planning |
 | `05-company-playbooks/` | Per company-type playbooks | Applying to a company |
-| `06-prompts/` | Copy-paste agent prompts for every task | Always for agent work |
+| `06-prompts/` | Copy-paste agent prompts | Always for agent work |
 | `07-checklists/` | Gate checklists | Before submit / interview |
 | `08-trackers/` | Applications, referrals, prep logs | Every apply / prep day |
 | `09-templates/` | Messages, bullets, STAR stories | Outreach / interviews |
 | `10-prep/` | DSA / LLD / HLD / behavioral plans | Interview prep |
-| `11-lists/` | Target / ban / priority lists | Choosing where to apply |
+| `11-lists/` | Target companies, channels, bans | Choosing where to apply |
 | `12-updates/` | Changelog + weekly review log | End of day/week |
 | `13-source-data/` | **Immutable archives** of all user resumes/claims | Always preserve; never delete |
 

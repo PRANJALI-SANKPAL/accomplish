@@ -1,69 +1,56 @@
 # 12-week maximum-probability plan
 
-**Not a guarantee.** This is a high-discipline probability stack.
+**Not a guarantee.**  
+**Concrete where/how/what:** → **`APPLY-PLAYBOOK.md`** (read that first for applying).
 
 ## North star metrics
 
-- Week 2: Master Truth locked + LinkedIn aligned + Master Resume live
-- Week 4: ≥40 quality applications + ≥30 referral asks + DSA cadence stable
-- Week 8: interviews in pipeline; mock loops started
-- Week 12: competing offers attempt OR strategy reset based on data
+- Week 1: LinkedIn + PDFs live; profiles on Instahyre/Hirist/Wellfound/Naukri; first 10 Tier A apps
+- Week 4: ≥40 high-fit apps + ≥30 referral asks; first shortlists/OAs targeted
+- Week 8: interviews in pipeline; mocks running
+- Week 12: offer attempt OR strategy reset from tracker data
 
-## Phase 0 — Days 1–3 (STOP applying)
+## Phase 0 — Days 1–2 (packet)
 
-1. Confirm Master Truth checklist (`02-truth/MASTER-TRUTH.md`)
-2. Delete/archive old conflicting resumes
-3. Publish Master Resume v1
-4. Rewrite LinkedIn to match
-5. Create trackers (`08-trackers/`)
-6. Pick Tier A/B targets (`11-lists/TARGET-TIERS.md`)
+Already done if Master Truth v1 locked. Still verify:
+1. LinkedIn = `LINKEDIN-COPY-v1.md`
+2. Backend + Full Stack PDFs ready
+3. Trackers clean
+4. Read **`APPLY-PLAYBOOK.md`** fully once
 
-## Phase 1 — Week 1–2: Foundation
+## Phase 1 — Week 1–2: Turn on pipeline
 
-- Daily: 1–2 hr DSA patterns
-- Build 5 STAR stories (`09-templates/STAR-BANK.md`)
-- Collect GitLab MR links + GitHub proof
-- Soft applications only to high-fit Tier B/C (not FAANG volume yet) optional after Day 3
-- Naukri/Instahyre/Wellfound profiles updated with **same** resume
-
-## Phase 2 — Week 3–6: Pipeline engine
-
-Daily targets (working professional schedule):
-- 5 targeted applications (fit ≥70%)
-- 3 referral asks (Job ID + 2-sentence fit)
+Follow APPLY-PLAYBOOK daily schedule:
+- 5 fit≥70 apps/day (mostly Tier A)
+- 3 referral asks/day
 - 1–2 hr DSA
-- Log everything
+- Profiles live on all 6 channels
 
-Weekly:
-- Follow up apps older than 10 business days
-- Re-upload Naukri resume once
-- Review response rate; if <3% after 30 apps → resume audit again
-- 1 mock interview by week 6
+## Phase 2 — Week 3–6: Volume + referrals
+
+- 25–40 apps/week
+- 15–25 referral asks/week
+- Tier mix: ~60% A / 25% B / 10% C
+- Weekly review; if response &lt;3% after 30 apps → prompt 12
 
 ## Phase 3 — Week 7–10: Interview mode
 
-- Batch interviews when possible
-- Add LLD drills + light HLD
-- Company-specific playbooks before each loop
-- Keep apply volume but prioritize active processes
+- OA sprint (prompt 18) when invited
+- LLD + light HLD
+- Company playbooks before loops
+- Keep applying but protect interview prep time
 
 ## Phase 4 — Week 11–12: Offer / reset
 
-- Negotiate with written offers
-- If no interviews: diagnose via `06-prompts/12-DIAGNOSE-REJECTION.md`
-- If interviews but no offers: prep gap analysis
-- Expand Tier list or adjust level targeting
+- Prompt 11 for offers
+- Expand Tier A list from what converted
+- Drop channels with 0 replies
 
-## Parallel workstreams (always)
+## Always
 
-| Stream | Owner habit |
+| Stream | Habit |
 |---|---|
-| Truth/Resume | Locked; emphasis-only edits |
-| Outreach | Referral-first 24h rule |
-| Prep | DSA > LLD > HLD > behavioral |
-| Tracking | Same-day logging |
-| Proof | OSS/PRs/public artifacts |
-
-## What “winning” looks like by week 4
-
-Not an offer — **shortlists/OAs**. If zero shortlists after 30 high-fit apps with consistent resume+LinkedIn, resume/targeting still broken.
+| Apply | APPLY-PLAYBOOK steps 1–9 per role |
+| Resume | Backend v1 / Full Stack v1 only |
+| Prep | DSA plan |
+| Track | applications.csv same day |

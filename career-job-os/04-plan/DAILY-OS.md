@@ -1,34 +1,26 @@
 # Daily operating system
 
-## Non-negotiable daily block (90–180 min if full-time job)
+**Full where/how/what:** `APPLY-PLAYBOOK.md`
 
-### Block A — Prep (45–75 min)
-1. 1 timed DSA medium (or 2 easies if rebuilding confidence)
-2. Review yesterday’s failed problem without looking for 10 min, then check
-3. Log in `08-trackers/prep-log.csv`
+## Non-negotiable daily block (90–150 min)
 
-### Block B — Pipeline (45–75 min)
-1. Source 8–12 roles → triage to 5 fit≥70%
-2. For each: score fit using prompt `01-SCORE-JD-FIT`
-3. Find referral target (24h rule) → send ask OR apply direct if none
-4. Log in `08-trackers/applications.csv` and `referrals.csv`
+### Block A — Prep (45–60 min)
+1. Timed DSA medium (`10-prep/DSA-PLAN.md`)
+2. Log `08-trackers/prep-log.csv`
 
-### Block C — Proof/admin (15 min)
-1. One LinkedIn touch optional
-2. Update STATUS if something material changed
-3. Tomorrow’s top 3 targets listed
+### Block B — Source (20 min)
+1. LinkedIn Jobs + Hirist + Instahyre + 1 career page
+2. Collect 8–12 roles → keep **5** with fit≥70
 
-## Weekday template
+### Block C — Refer + apply (40–60 min)
+For each of 5 roles:
+1. Prompt/score fit if unsure
+2. Referral DM (Job ID + 2 true sentences)
+3. Apply on official portal with Backend or Full Stack v1
+4. Log `applications.csv` + `referrals.csv`
 
-| Time | Task |
-|---|---|
-| Morning commute / early | DSA timed |
-| Lunch | Source + triage roles |
-| Evening | Referral asks + applies + log |
+### Block D — Close (5 min)
+Write tomorrow’s top 5 company names in `COMPANY-WATCHLIST.md` weekly section.
 
-## Rules
-
-- No applying with non-master resume
-- No more than 1 variant PDF difference = bullet order/summary tilt
-- Cap: quality 5 targeted > 20 spam
-- If energy low: keep DSA + 2 referral asks minimum
+## Minimum day (low energy)
+1 DSA + 2 referrals + 2 applies + log.

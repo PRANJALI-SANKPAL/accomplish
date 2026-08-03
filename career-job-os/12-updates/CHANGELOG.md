@@ -20,6 +20,12 @@
 - Hardened AGENT-CONTRACT: never lose/delete source data; Master Truth ≠ data deletion.
 - Added prompt `21-INGEST-SOURCE-DATA-NO-LOSS.md`.
 
+## 2026-08-03 (apply playbook)
+- Added `04-plan/APPLY-PLAYBOOK.md` — concrete WHERE (channels + company list), HOW (step-by-step), WHAT (daily/weekly).
+- Expanded `COMPANY-WATCHLIST.md`, `CHANNELS.md`, `TARGET-TIERS.md`.
+- Wired 12-week + daily OS + user next actions to the playbook.
+- Added prompt `22-PLAN-TODAYS-APPLICATIONS.md`.
+
 ## 2026-08-03 (repo home decision)
 - Abandoned private Cursor-resume-info transfer (agent token cannot access it).
 - Career Job OS permanently on personal fork `PRANJALI-SANKPAL/accomplish` under `career-job-os/` (merged to main).

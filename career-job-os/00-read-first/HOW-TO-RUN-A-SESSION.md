@@ -38,6 +38,7 @@ INPUT: <paste JD or details>
 | Expand targets | `06-prompts/19-EXPAND-TARGET-LIST.md` |
 | Archive old resumes | `06-prompts/20-ARCHIVE-OLD-RESUMES.md` |
 | Ingest new data (no loss) | `06-prompts/21-INGEST-SOURCE-DATA-NO-LOSS.md` |
+| Plan today’s applications | `06-prompts/22-PLAN-TODAYS-APPLICATIONS.md` |
 
 ## End of every session
 
