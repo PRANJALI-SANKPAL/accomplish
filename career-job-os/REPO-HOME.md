@@ -1,6 +1,9 @@
 # Repo home
 
-This Career Job OS lives on **your fork**: `PRANJALI-SANKPAL/accomplish` under `career-job-os/`.
+**Desired home:** private GitHub repo `PRANJALI-SANKPAL/Cursor-resume-info` (not the public Accomplish fork).
 
-It is **not** part of upstream Accomplish product releases. Keep it on this fork only.
-Do not open PRs against the global/upstream Accomplish repository for these files.
+**Temporary location:** this folder on `PRANJALI-SANKPAL/accomplish` (personal fork of an open-source project). Move off this fork ASAP.
+
+See `TRANSFER-TO-CURSOR-RESUME-INFO.md` and `CHAT-CONTINUITY.md`.
+
+Do not open PRs against upstream Accomplish for these personal career files.
